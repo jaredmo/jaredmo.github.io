@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.jmonger.com/</loc>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
+  </url><url>
+    <loc>https://www.jmonger.com/posts/</loc>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
+  </url><url>
+    <loc>https://www.jmonger.com/about/</loc>
+  </url><url>
+    <loc>https://www.jmonger.com/categories/</loc>
+  </url><url>
+    <loc>https://www.jmonger.com/resume/</loc>
+  </url><url>
+    <loc>https://www.jmonger.com/series/</loc>
+  </url><url>
+    <loc>https://www.jmonger.com/tags/</loc>
+  </url>
+</urlset>
