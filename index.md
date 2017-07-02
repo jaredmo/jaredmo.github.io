@@ -1,3 +1,4 @@
+<title>Jared Monger</title>
 <style>
   body          { margin:40px; color:#333; }
   a, a:visited  { color: black; text-decoration:underline}
