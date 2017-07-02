@@ -1,6 +1,6 @@
 <style>
   body          { margin:40px; color:#333; }
-  a, a:visited  { color: black; }
+  a, a:visited  { color: black; text-decoration:underline}
   code          {background-color: #f8f8f8; padding:5px;}
   li            { margin:5px; }
   p             {margin:30px 0;}
@@ -9,7 +9,6 @@
 
 <img class="img-rounded" height="230" src="https://avatars3.githubusercontent.com/u/27711028?v=3&amp;s=460" width="230">
 # Jared Monger  
----
 
 ### About
 I am a CPA / programmer from Franklin, TN. Work in the healthcare industry.
