@@ -31,7 +31,7 @@ I am a CPA / programmer from Franklin, TN. Work in the healthcare industry.
 - ERP systems - *SmartStream, Oracle, SAP, and Lawson*
 - ASC billing systems - *NextGen, Vision, Advantx, SIS, and others*
 - SQL Server Reporting Services 
-- Sharepoint and Nintex
+- SharePoint and Nintex
 - SAS - [my cert](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/) 
 - Excel (I am an accountant after all...)  
 
