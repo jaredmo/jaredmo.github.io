@@ -10,9 +10,6 @@
 
 <img class="img-rounded" height="230" src="https://avatars3.githubusercontent.com/u/27711028?v=3&amp;s=460" width="230">
 
-Jared Monger
-============
-
 SUMMARY
 -------
 Dedicated professional with experience in corporate finance and “Big 4” public accounting. Strong financial modeling and systems background. Holds an active Certified Public Accountant license in Tennessee and SAS Certified Base Programmer for SAS 9 credential.
@@ -28,10 +25,10 @@ SPECIALTIES
 - Building predictive analytical models
 - Leveraging technological infrastructure to drive efficiencies and profitability
 - Relevant tools and programming languages include SmartStream, SharePoint, Oracle GL, SAS, SQL Server, Cognos, R, Python, Git, Excel, Access, ACL, and Business Objects.
-
+  
 EXPERIENCE
 ----------
-**AmSurg Corp**
+**AmSurg Corp**  
 *Director of Financial Services*, IT Specialist, 7/16 – present
 - Account for ASC acquisitions, including opening balance sheet and systems integration.
 - Provide analytical support and accounting direction to Operations, ASCs and other departments.
@@ -42,7 +39,7 @@ EXPERIENCE
 - Create documentation of project specs and user requirements for Finance/IT projects. 
 - Developed Git version control workflow for critical applications and reports.
 
-**AmSurg Corp**
+**AmSurg Corp**  
 *Manager of Financial Services II*, 6/11 - 7/16
 - Supervise team of accountants, senior accountants, and accounts payable personnel. 
 - Manage operating/capital budgets and monthly accounting processes for 30+ ambulatory surgery centers.
@@ -54,7 +51,7 @@ EXPERIENCE
 - Partnered with IT to design and implement electronic journal entry backup storage solution. The project is expected to save 950K+ sheets of paper annually.
 - Design dashboards and reports for department leadership. 
 
-**LifeWay Christian Resources**
+**LifeWay Christian Resources**  
 *Financial Analyst*, 1/09 - 6/11
 - Data analysis, budgeting, forecasting and reporting for LifeWay’s Church Resources Division. 
 - Developed annual operating, working capital and fixed asset budgets for three departments. 
@@ -66,7 +63,7 @@ EXPERIENCE
 - Annually trained and managed 20+ temp financial personnel across the United States. 
 - Performed M&A due diligence on acquisition that increased a department’s revenue by 30%.
 
-**Deloitte & Touche LLP**
+**Deloitte & Touche LLP**  
 *Senior Consultant, Data Quality & Integrity*, 9/06 - 10/08
 - Provided audit and consulting services to healthcare, automotive, and financial services clients.
 - Used computer-assisted audit tools and techniques to identify transactions with high audit risk.
@@ -80,34 +77,35 @@ EXPERIENCE
 
 ADDITIONAL EXPERIENCE
 ---------------------
-**Belmont University**
+**Belmont University**  
 *Adjunct Professor of Accounting, College of Business Administration*, 8/09 - 12/09
 - Taught Accounting Principles II to 30 students at night during the fall 2009 semester. 
 - Created presentations, tests, assignments and games to facilitate classroom learning.
 
 EDUCATION
 ---------
-**Belmont University - Jack C. Massey Graduate School of Business**
-*Master of Accountancy*, 2005 - 2006
-GPA: 4.0 Full scholarship through graduate assistantship. Member of Beta Gamma Sigma, Beta Alpha Psi.
+**Belmont University - Jack C. Massey Graduate School of Business**  
+*Master of Accountancy*, 2005 - 2006  
+- GPA: 4.0 Full scholarship through graduate assistantship. Member of Beta Gamma Sigma, Beta Alpha Psi.
 
-**Belmont University**
-*Bachelor of Business Administration*, 2000 - 2004
-GPA: 3.9 Four year academic scholarship recipient. Member of Beta Gamma Sigma, Alpha Chi.
+**Belmont University**  
+*Bachelor of Business Administration*, 2000 - 2004  
+- GPA: 3.9 Four year academic scholarship recipient. Member of Beta Gamma Sigma, Alpha Chi.
 
 HONORS
 ------
-Federation of Schools of Accountancy 2006 Student Achievement Award
+- Federation of Schools of Accountancy 2006 Student Achievement Award
 
 ASSOCIATIONS
 ------------
-American Institute of Certified Public Accountants, Tennessee Society of Certified Public Accountants
+- American Institute of Certified Public Accountants
+- Tennessee Society of Certified Public Accountants
 
 CERTIFICATIONS
 --------------
-*Certified Public Accountant*, Tennessee State Board of Accountancy
-*SAS Certified Base Programmer for SAS 9*, SAS Institute Inc.
-*Health Information Technology (HIT) Accelerator*, Belmont University / TN HIMMS
+- *Certified Public Accountant*, Tennessee State Board of Accountancy
+- *SAS Certified Base Programmer for SAS 9*, SAS Institute Inc.
+- *Health Information Technology (HIT) Accelerator*, Belmont University / TN HIMMS
 
 CONTACT
 -------
