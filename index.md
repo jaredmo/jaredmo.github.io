@@ -29,7 +29,7 @@ SPECIALTIES
 EXPERIENCE
 ----------
 **AmSurg Corp**  
-*Director of Financial Services*, IT Specialist, 7/16 – present
+*Director of Financial Services, IT Specialist*, 7/16 – present
 - Account for ASC acquisitions, including opening balance sheet and systems integration.
 - Provide analytical support and accounting direction to Operations, ASCs and other departments.
 - Develop SQL Server Reporting Services reports.
