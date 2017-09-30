@@ -109,7 +109,11 @@ CERTIFICATIONS
 --------------
 - *[Certified Public Accountant](http://verify.tn.gov)*, Tennessee State Board of Accountancy (License: 20199)
 - *[SAS Certified Base Programmer for SAS 9](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/)*, SAS Institute Inc.
+
+COURSES
+-------
 - *Health Information Technology (HIT) Accelerator*, Belmont University / TN HIMMS
+- *[Querying with Transact-SQL]*(https://courses.edx.org/certificates/5999c8176df24914bc015eb35a0fee7a), edX
 
 CONTACT
 -------
