@@ -113,7 +113,7 @@ CERTIFICATIONS
 COURSES
 -------
 - *Health Information Technology (HIT) Accelerator*, Belmont University / TN HIMMS
-- *[Querying with Transact-SQL]*(https://courses.edx.org/certificates/5999c8176df24914bc015eb35a0fee7a), edX
+- *[Querying with Transact-SQL](https://courses.edx.org/certificates/5999c8176df24914bc015eb35a0fee7a)*, edX
 
 CONTACT
 -------
