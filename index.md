@@ -24,19 +24,23 @@ SPECIALTIES
 - Exploratory data analysis and report creation
 - Building predictive analytical models
 - Leveraging technological infrastructure to drive efficiencies and profitability
-- Relevant tools and programming languages include SmartStream, SharePoint, Oracle GL, SAS, SQL Server, Cognos, R, Python, Git, Excel, Access, ACL, and Business Objects.
+- Tools and programming languages include SmartStream, Oracle GL, SAS, SQL Server, Cognos, R, Python, Git, SharePoint, Nintex, KnowledgeLake, Excel, Access, ACL, and Business Objects.
   
 EXPERIENCE
 ----------
 **AmSurg Corp**  
 *Director of Financial Services, IT Specialist*, 7/16 – present
-- Account for ASC acquisitions, including opening balance sheet and systems integration.
-- Provide analytical support and accounting direction to Operations, ASCs and other departments.
+- Account for surgery center acquisitions including opening balance sheet, budget, and systems integration.
+- Provide analytical support and accounting direction to Operations, surgery centers and other departments.
+- Review surgery center income statements monthly and provide feedback to staff.
+- Assist with consolidation of 300+ accounting entities with variable ownership. 
 - Develop SQL Server Reporting Services reports.
 - Develop Finance SharePoint sites, lists and Nintex workflows.
 - Coordinate development, testing and deployment of internal .NET finance applications.
 - Design, implement and monitor process improvement projects using Lean/Kaizen methodology.
-- Create documentation of project specs and user requirements for Finance/IT projects. 
+- Create documentation and materials for cross functional finance projects. 
+- Significantly reduced manual report execution with SSRS data driven subscriptions (75K annually).
+- Designed and implemented KnowledgeLake paperless workflow for monthly account reconciliations (24K annually). 
 - Developed Git version control workflow for critical applications and reports.
 
 **AmSurg Corp**  
@@ -47,9 +51,9 @@ EXPERIENCE
 - Account for surgery center acquisitions including opening balance sheet, budget, and systems integration.
 - Responsible for successful wind-down of entities placed in discontinued operations.
 - Approve and release ACH transfers including partnership distributions.
-- Created Sharepoint workflows to replace existing paper-based processes, saving 150K+ sheets of paper annually.
-- Partnered with IT to design and implement electronic journal entry backup storage solution. The project is expected to save 950K+ sheets of paper annually.
-- Design dashboards and reports for department leadership. 
+- Created SharePoint workflows to replace existing paper-based report processes (150K+ sheets of paper annually).
+- Designed and implemented KnowledgeLake/SmartStream paperless workflow for journal entry backup (950K+ sheets of paper annually).
+- Created dashboards and reports for department leadership. 
 
 **LifeWay Christian Resources**  
 *Financial Analyst*, 1/09 - 6/11
@@ -103,8 +107,8 @@ ASSOCIATIONS
 
 CERTIFICATIONS
 --------------
-- *Certified Public Accountant*, Tennessee State Board of Accountancy
-- *SAS Certified Base Programmer for SAS 9*, SAS Institute Inc.
+- *[Certified Public Accountant](http://verify.tn.gov)*, Tennessee State Board of Accountancy (License: 20199)
+- *[SAS Certified Base Programmer for SAS 9](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/)*, SAS Institute Inc.
 - *Health Information Technology (HIT) Accelerator*, Belmont University / TN HIMMS
 
 CONTACT
