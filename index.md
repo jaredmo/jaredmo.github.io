@@ -29,7 +29,10 @@ SPECIALTIES
 EXPERIENCE
 ----------
 **AmSurg Corp**  
-*Director of Financial Services, IT Specialist*, 7/16 – present
+*Senior Director of Financial Services*, 4/18 – present
+
+**AmSurg Corp**  
+*Director of Financial Services, IT Specialist*, 7/16 – 4/18
 - Account for surgery center acquisitions including opening balance sheet, budget, and systems integration.
 - Provide analytical support and accounting direction to Operations, surgery centers and other departments.
 - Review surgery center income statements monthly and provide feedback to staff.
