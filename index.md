@@ -119,6 +119,7 @@ COURSES
 - *[Data Science Orientation](https://courses.edx.org/certificates/c88a20c618f7453abf1af5eaec05f036)*, edX
 - *[Querying with Transact-SQL](https://courses.edx.org/certificates/5999c8176df24914bc015eb35a0fee7a)*, edX
 - *[Introduction to R for Data Science](https://courses.edx.org/certificates/28365938835840e6a08edae5f59d50de)*, edX
+- *[Data Science Essentials](https://courses.edx.org/certificates/8211c72b6219427cb26cb2aaea93a601)*, edX
 
 CONTACT
 -------
