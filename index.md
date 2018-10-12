@@ -30,6 +30,7 @@ EXPERIENCE
 ----------
 **AmSurg Corp**  
 *Senior Director of Financial Services*, 4/18 – present
+- Integrated company's first ophthalmology practice and optical store acquisitions.
 
 **AmSurg Corp**  
 *Director of Financial Services, IT Specialist*, 7/16 – 4/18
