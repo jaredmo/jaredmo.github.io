@@ -124,5 +124,6 @@ COURSES
 
 CONTACT
 -------
+- Email: [info@jmonger.com](mailto:info@jmonger.com)
 - [Keybase](https://keybase.io/jmonger) 
 - [LinkedIn](https://www.linkedin.com/in/jaredmonger)
