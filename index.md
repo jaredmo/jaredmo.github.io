@@ -10,6 +10,13 @@
 
 <img class="img-rounded" height="230" src="https://avatars3.githubusercontent.com/u/27711028?v=3&amp;s=460" width="230">
 
+CONTACT
+-------
+- Email: [info@jmonger.com](mailto:info@jmonger.com) [(pgp)](https://keybase.io/jmonger/pgp_keys.asc?fingerprint=611a6d0aa82c7016943e32ab443a64af55d5d91a)
+- [LinkedIn](https://www.linkedin.com/in/jaredmonger)
+- [Keybase](https://keybase.io/jmonger) 
+
+
 SUMMARY
 -------
 Dedicated professional with experience in corporate finance and “Big 4” public accounting. Strong financial modeling and systems background. Holds an active Certified Public Accountant license in Tennessee and SAS Certified Base Programmer for SAS 9 credential.
@@ -121,9 +128,3 @@ COURSES
 - *[Querying with Transact-SQL](https://courses.edx.org/certificates/5999c8176df24914bc015eb35a0fee7a)*, edX
 - *[Introduction to R for Data Science](https://courses.edx.org/certificates/28365938835840e6a08edae5f59d50de)*, edX
 - *[Data Science Essentials](https://courses.edx.org/certificates/8211c72b6219427cb26cb2aaea93a601)*, edX
-
-CONTACT
--------
-- Email: [info@jmonger.com](mailto:info@jmonger.com)
-- [Keybase](https://keybase.io/jmonger) 
-- [LinkedIn](https://www.linkedin.com/in/jaredmonger)
