@@ -12,7 +12,6 @@
 
 CONTACT
 -------
-- [info@jmonger.com](mailto:info@jmonger.com) [(pgp)](https://keybase.io/jmonger/pgp_keys.asc?fingerprint=611a6d0aa82c7016943e32ab443a64af55d5d91a)
 - [LinkedIn](https://www.linkedin.com/in/jaredmonger)
 - [Keybase](https://keybase.io/jmonger) 
 
