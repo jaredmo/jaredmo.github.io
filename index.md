@@ -1,4 +1,4 @@
-<title>Jared Monger</title>
+﻿<title>Jared Monger</title>
 <style>
   body          { margin:40px; color:#333; }
   a, a:visited  { color: black; text-decoration:underline}
@@ -12,6 +12,7 @@
 
 CONTACT
 -------
+- [info@monger.cc](mailto:info@monger.cc) [(pgp)](https://keybase.io/jmonger/pgp_keys.asc?fingerprint=611a6d0aa82c7016943e32ab443a64af55d5d91a)
 - [LinkedIn](https://www.linkedin.com/in/jaredmonger)
 - [Keybase](https://keybase.io/jmonger) 
 
