@@ -12,7 +12,7 @@
 
 CONTACT
 -------
-- [info@monger.cc](mailto:info@monger.cc)
+- [info@jaredmonger.com](mailto:info@jaredmonger.com)
 - [LinkedIn](https://www.linkedin.com/in/jaredmonger)
 - [Keybase](https://keybase.io/jmonger) 
 
