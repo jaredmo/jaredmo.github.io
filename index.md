@@ -13,9 +13,10 @@
 CONTACT
 -------
 - [info@jaredmonger.com](mailto:info@jaredmonger.com)
-- [LinkedIn](https://www.linkedin.com/in/jaredmonger)
+- [GitHub](https://github.com/jaredmo)
 - [Keybase](https://keybase.io/jmonger) 
-
+- [LinkedIn](https://www.linkedin.com/in/jaredmonger)
+- [Twitter](https://twitter.com/jmonger)
 
 SUMMARY
 -------
