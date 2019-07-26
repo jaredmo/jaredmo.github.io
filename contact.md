@@ -18,7 +18,12 @@ Email
 
 Socials
 -------
-[GitHub](https://github.com/jaredmo)
-[Keybase](https://keybase.io/jmonger) 
-[LinkedIn](https://www.linkedin.com/in/jaredmonger)
-[Twitter](https://twitter.com/jmonger)
+[GitHub](https://github.com/jaredmo)<br>
+[Keybase](https://keybase.io/jmonger)<br>
+[LinkedIn](https://www.linkedin.com/in/jaredmonger)<br>
+[Twitter](https://twitter.com/jmonger)<br>
+<br>
+
+<img src="https://imgs.xkcd.com/comics/automation.png" height="300" width="300">
+
+[Source](https://xkcd.com/1319/)
