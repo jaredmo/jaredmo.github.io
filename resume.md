@@ -18,7 +18,7 @@ Experience
 **AmSurg Corp**  
 *Senior Director of Financial Services*, 4/18 – present
 - Integrated company's first ophthalmology practice and optical store acquisitions.
-- Co-wrote software which records over $1 billion in annual revenue and interentity fees. Standardizes disparate medical billing platforms and converts to general ledger data.
+- Co-wrote web application that processes $1 billion in annual revenue and interentity fees. Consumes disparate medical billing system inputs; outputs to SmartStream GL and IBM Cognos.
 
 **AmSurg Corp**  
 *Director of Financial Services, IT Specialist*, 7/16 – 4/18
