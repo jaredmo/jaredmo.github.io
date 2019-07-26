@@ -22,7 +22,7 @@ Socials
 [Keybase](https://keybase.io/jmonger)<br>
 [LinkedIn](https://www.linkedin.com/in/jaredmonger)<br>
 [Twitter](https://twitter.com/jmonger)<br>
-<br>
+<br><br><br>
 
 <img src="https://imgs.xkcd.com/comics/automation.png" height="300" width="300">
 
