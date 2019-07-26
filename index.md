@@ -15,7 +15,7 @@
 
 Certified Public Accountant and software developer from Nashville, TN. I specialize in healthcare data analytics, acquisition integration, and building internal accounting tools.
 
-*Things I know a lot about...*
+*Things I have used a lot...*
 
 - Healthcare accounting
 - [Business combination accounting (ASC 805)](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805)
@@ -30,7 +30,7 @@ Certified Public Accountant and software developer from Nashville, TN. I special
 - [Excel/Access](https://products.office.com/en-us/excel) (I am an accountant after all)
 - [ACL/Galvanize](https://www.wegalvanize.com/)
 
-*Things I know enough about...*
+*Things I have used a little...*
 - [Oracle GL](https://www.oracle.com/a/ocom/docs/applications/ebusiness/oracle-general_ledger-data-sheet.pdf)
 - [R](https://www.r-project.org/about.html)
 - [Python](https://www.python.org/)
