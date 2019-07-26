@@ -12,11 +12,10 @@
 
 <strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a></strong>
   <br>
-  <br>
 
 Certified Public Accountant and software developer from Nashville, TN. I specialize in healthcare data analytics, acquisition integration, and building internal accounting tools.
 
-Things I know a lot about... 
+*Things I know a lot about...*
 
 - Healthcare accounting
 - [Business combination accounting (ASC 805)](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805)
@@ -31,7 +30,7 @@ Things I know a lot about...
 - [Excel/Access](https://products.office.com/en-us/excel) (I am an accountant after all)
 - [ACL/Galvanize](https://www.wegalvanize.com/)
 
-Things I know a enough about... 
+*Things I know enough about...*
 - [Oracle GL](https://www.oracle.com/a/ocom/docs/applications/ebusiness/oracle-general_ledger-data-sheet.pdf)
 - [R](https://www.r-project.org/about.html)
 - [Python](https://www.python.org/)
