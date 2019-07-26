@@ -25,7 +25,7 @@ Certified Public Accountant and software developer from Nashville, TN. I special
 - [KnowledgeLake](https://www.knowledgelake.com/)
 - [Git](https://git-scm.com/) ([truth](https://xkcd.com/1296/))
 - [IBM Cognos](https://www.ibm.com/products/cognos-analytics)
-- [Excel/Access](https://products.office.com/en-us/excel) (I am an accountant after all)
+- [Excel/Access](https://products.office.com/en-us/excel) (i am an accountant after all)
 - [ACL/Galvanize](https://www.wegalvanize.com/)
 
 *Stuff I have used a little...*
