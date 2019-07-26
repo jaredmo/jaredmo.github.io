@@ -10,7 +10,7 @@
 
 <img class="img-rounded" height="230" src="https://avatars3.githubusercontent.com/u/27711028?v=3&amp;s=460" width="230">
 
-<strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a>
+<strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a></strong>
   <br>
 
 Summary
