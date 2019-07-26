@@ -1,7 +1,6 @@
 ﻿<title>Jared Monger</title>
 <style>
   body          { margin:40px; color:#333; }
-  <!--a, a:visited  { color: black; text-decoration:underline}-->
   code          {background-color: #f8f8f8; padding:5px;}
   li            { margin:5px; }
   p             {margin:30px 0;}
