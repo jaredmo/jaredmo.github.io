@@ -13,10 +13,12 @@
 <strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a>
   <br>
 
-**Email**
+Email
+-----
 [info@jaredmonger.com](mailto:info@jaredmonger.com)
 
-**Socials**
+Socials
+-------
 [GitHub](https://github.com/jaredmo)
 [Keybase](https://keybase.io/jmonger) 
 [LinkedIn](https://www.linkedin.com/in/jaredmonger)

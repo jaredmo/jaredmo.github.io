@@ -13,18 +13,6 @@
 <strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a>
   <br>
 
-Summary
--------
-Dedicated professional with experience in corporate finance and “Big 4” public accounting. Strong financial modeling and systems background. Holds an active Certified Public Accountant license in Tennessee and SAS Certified Base Programmer for SAS 9 credential.
+Certified Public Accountant and SQL developer from Nashville, TN. I specialize in healthcare data analytics.
 
-Specialties
------------
-- Preparation of financial statements and executive reporting packages
-- Leading and coaching high performing teams
-- Business combination accounting [(ASC 805)](https://www.fasb.org/resources/ccurl/218/786/ASU%202014-18.pdf)
-- Health care accounting
-- Budgeting and forecasting
-- Exploratory data analysis and report creation
-- Building predictive analytical models
-- Leveraging technological infrastructure to drive efficiencies and profitability
-- Tools and programming languages include SmartStream, Oracle GL, SAS, SQL Server, Cognos, R, Python, Git, SharePoint, Nintex, KnowledgeLake, Excel, Access, ACL, and Business Objects.
+Tools and programming languages include SmartStream, Oracle GL, SAS, Microsoft SQL Server, Cognos, R, Python, Git, SharePoint, Nintex, KnowledgeLake, Excel, Access, ACL, and Business Objects.

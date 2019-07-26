@@ -10,14 +10,31 @@
 
 <img class="img-rounded" height="230" src="https://avatars3.githubusercontent.com/u/27711028?v=3&amp;s=460" width="230">
 
-<strong> <a href="{{site.url}}/index.md">  home </a> •  <a href="{{site.url}}/resume.md">  resume </a> •  <a href="{{site.url}}/contact.md">  contact </a>
+<strong> <a href="{{site.url}}/index">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a>
   <br>
+
+Summary
+-------
+Dedicated professional with experience in corporate finance and “Big 4” public accounting. Strong financial modeling and systems background. Holds an active Certified Public Accountant license in Tennessee and SAS Certified Base Programmer for SAS 9 credential.
+
+Specialties
+-----------
+- Preparation of financial statements and executive reporting packages
+- Leading and coaching high performing teams
+- Business combination accounting [(ASC 805)](https://www.fasb.org/resources/ccurl/218/786/ASU%202014-18.pdf)
+- Health care accounting
+- Budgeting and forecasting
+- Exploratory data analysis and report creation
+- Building predictive analytical models
+- Leveraging technological infrastructure to drive efficiencies and profitability
+- Tools and programming languages include SmartStream, Oracle GL, SAS, SQL Server, Cognos, R, Python, Git, SharePoint, Nintex, KnowledgeLake, Excel, Access, ACL, and Business Objects.
 
 Experience
 ----------
 **AmSurg Corp**  
 *Senior Director of Financial Services*, 4/18 – present
 - Integrated company's first ophthalmology practice and optical store acquisitions.
+- Co-wrote software which records over $1 billion in annual revenue and interentity fees. Standardizes disparate medical billing platforms and converts to general ledger data.
 
 **AmSurg Corp**  
 *Director of Financial Services, IT Specialist*, 7/16 – 4/18
