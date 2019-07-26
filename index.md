@@ -33,3 +33,7 @@ Certified Public Accountant and software developer from Nashville, TN. I special
 - [R](https://www.r-project.org/about.html)
 - [Python](https://www.python.org/)
 - [Business Objects](https://www.sap.com/index.html)
+
+<br><br>
+<img src="https://imgs.xkcd.com/comics/automation.png" height="300" width="300"><br>
+[Source](https://xkcd.com/1319/)
