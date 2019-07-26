@@ -19,7 +19,7 @@ Certified Public Accountant and software developer from Nashville, TN. I special
 - [SAS](https://www.sas.com/en_us/home.html) (took a [test](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/) that says i know things)
 - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx)
 - Healthcare accounting (contractual adjustment/bad debt reserves; generally predicting the future)
-- [Business combination accounting (ASC 805)](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805) (taking loads of small numbers, and making big numbers)
+- [Business combination accounting](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805) (taking loads of small numbers, and making big numbers)
 - [SharePoint](https://products.office.com/en-us/sharepoint/collaboration)
 - [Nintex](https://www.nintex.com/)
 - [KnowledgeLake](https://www.knowledgelake.com/)
