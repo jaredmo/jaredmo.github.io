@@ -16,16 +16,16 @@ Certified Public Accountant and software developer from Nashville, TN. I special
 
 *Stuff I have used a lot...*
 - [SmartStream](http://www.smartstream.com/)
-- [SAS](https://www.sas.com/en_us/home.html) (Took a [test](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/))
+- [SAS](https://www.sas.com/en_us/home.html) (took a [test](https://www.youracclaim.com/badges/47f05ac8-2804-46b0-b52b-30309d42fb80/))
 - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx)
-- Healthcare accounting
-- [Business combination accounting](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805) (Taking small numbers, and making big numbers)
+- Healthcare accounting (contractual/bad debt reserve analytics)
+- [Business combination accounting](https://www.iasplus.com/en-us/standards/fasb/broad-transactions/asc805) (taking small numbers, and making big numbers)
 - [SharePoint](https://products.office.com/en-us/sharepoint/collaboration)
 - [Nintex](https://www.nintex.com/)
 - [KnowledgeLake](https://www.knowledgelake.com/)
 - [Git](https://git-scm.com/) ([truth](https://xkcd.com/1296/))
 - [IBM Cognos](https://www.ibm.com/products/cognos-analytics)
-- [Excel/Access](https://products.office.com/en-us/excel) (I am an accountant)
+- [Excel/Access](https://products.office.com/en-us/excel) (i am an accountant, after all)
 - [ACL/Galvanize](https://www.wegalvanize.com/)
 
 *Stuff I have used a little...*
