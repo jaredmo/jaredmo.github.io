@@ -12,7 +12,7 @@
 <strong> <a href="{{site.url}}/">  home </a> •  <a href="{{site.url}}/resume">  resume </a> •  <a href="{{site.url}}/contact">  contact </a></strong>
   <br>
 
-Certified Public Accountant and software developer from Nashville, TN. I specialize in healthcare data analytics, acquisition integration, and building internal accounting tools.
+Certified Public Accountant and developer from Nashville, TN. I specialize in healthcare data analytics, acquisition integration, and building internal accounting tools.
 
 *Stuff I have used a lot...*
 - [SmartStream](http://www.smartstream.com/)
