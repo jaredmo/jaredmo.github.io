@@ -19,7 +19,6 @@ Experience
 - Integrated company's first ophthalmology practice and optical store acquisitions.
 - Co-wrote web application that processes $1 billion in annual revenue and interentity fees. Consumes disparate medical billing system inputs; outputs to SmartStream GL and IBM Cognos.
 
-**AmSurg Corp**  
 *Director of Financial Services, IT Specialist*, 7/16 – 4/18
 - Account for surgery center acquisitions including opening balance sheet, budget, and systems integration.
 - Provide analytical support and accounting direction to Operations, surgery centers and other departments.
@@ -34,7 +33,6 @@ Experience
 - Designed and implemented KnowledgeLake paperless workflow for monthly account reconciliations (24K annually). 
 - Developed Git version control workflow for critical applications and reports.
 
-**AmSurg Corp**  
 *Manager of Financial Services II*, 6/11 - 7/16
 - Supervise team of accountants, senior accountants, and accounts payable personnel. 
 - Manage operating/capital budgets and monthly accounting processes for 30+ ambulatory surgery centers.
