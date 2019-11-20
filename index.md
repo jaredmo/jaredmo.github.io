@@ -16,9 +16,9 @@ Certified Public Accountant and SQL/SAS developer from Nashville, TN. I speciali
 
 Example projects:
 
-* Estimating accounts receivable reserves based on closed claims analysis at various healthcare organizations.
-* Web application that records over $1 billion in annual revenue. Converts medical billing data to accounting journal entries.
-* Automating delivery for thousands of reports with SSRS data driven subscriptions.
-* Designing paperless workflows which eliminated over 1 million sheets of paper annually.
+* Estimating healthcare accounts receivable reserves based on closed claims analysis.
+* Co-authoring application that converts medical billing data to accounting journal entries. Records over $1 billion annually.
+* Streamlining accounting workflows with SharePoint and Nintex.
+* Automating report delivery with SSRS data driven subscriptions.
 * Integrating AMSURG's first ophthalmology practice and optical store acquisitions.
 * Estimating warranty and credit loss reserves for Nissan North America using actuarial models.
