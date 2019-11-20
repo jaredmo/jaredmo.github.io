@@ -13,12 +13,3 @@
   <br>
 
 Certified Public Accountant and SQL/SAS developer from Nashville, TN. I specialize in leveraging technological infrastructure to drive efficiencies and profitability. Areas of expertise include healthcare data analytics, acquisition integration, report writing, and building internal accounting applications. 13+ years of experience writing reports and application back ends in SQL and SAS.
-
-Example projects:
-
-* Estimating healthcare accounts receivable reserves based on closed claims analysis.
-* Co-authoring application that converts medical billing data to accounting journal entries. Records over $1 billion annually.
-* Streamlining accounting workflows with SharePoint and Nintex.
-* Automating report delivery with SSRS data driven subscriptions.
-* Integrating AMSURG's first ophthalmology practice and optical store acquisitions.
-* Estimating warranty and credit loss reserves for Nissan North America using actuarial models.
