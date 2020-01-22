@@ -21,6 +21,25 @@
     </item>
     
     <item>
+      <title>Everybody stay calm</title>
+      <link>https://www.jmonger.com/posts/2012/11/everybody-stay-calm/</link>
+      <pubDate>Sun, 04 Nov 2012 14:21:10 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2012/11/everybody-stay-calm/</guid>
+      <description>You may have noticed the blog posts have been in short supply since last year. Well, frankly, it&#39;s because I&#39;ve been a lot busier and the nature of my work has changed significantly. Instead of spending hours debugging code and writing the perfect formula in Excel, I&#39;m now delegating responsibilities and managing people. This has been an exciting and different world for me. As far as my plans for this blog, I&#39;m still going to post the odd technical tip as projects come up, but I may shift some focus to current accounting news and people management since that&#39;s where I am spending my time these days.</description>
+    </item>
+    
+    <item>
+      <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
+      <link>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
+One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
+    </item>
+    
+    <item>
       <title>Bitcoin: A Money Launderer&#39;s Dream Come True</title>
       <link>https://www.jmonger.com/posts/2011/05/bitcoin-a-money-launderers-dream-come-true/</link>
       <pubDate>Mon, 16 May 2011 17:41:51 +0000</pubDate>
@@ -36,6 +55,15 @@
       
       <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
       <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Dashboard Your Scorecard</title>
+      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
+      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
+      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
     </item>
     
     <item>
@@ -67,6 +95,16 @@ My dad first taught me about compound interest when I was 18 years old. I was wo
     </item>
     
     <item>
+      <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
+      <link>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</link>
+      <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</guid>
+      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
+    </item>
+    
+    <item>
       <title>Book Review: Lords of Finance, The Bankers Who Broke the World</title>
       <link>https://www.jmonger.com/posts/2011/01/book-review-lords-of-finance-the-bankers-who-broke-the-world/</link>
       <pubDate>Wed, 19 Jan 2011 18:23:05 +0000</pubDate>
@@ -83,6 +121,55 @@ My dad first taught me about compound interest when I was 18 years old. I was wo
       <guid>https://www.jmonger.com/posts/2011/01/dickens-on-personal-budgeting/</guid>
       <description>&amp;ldquo;Annual income twenty pounds, annual expenditure nineteen six, result happiness. Annual income twenty pounds, annual expenditure twenty pound ought and six, result misery.&amp;rdquo;
 Charles Dickens, David Copperfield</description>
+    </item>
+    
+    <item>
+      <title>GigaOM: Get Business Intelligence Ready for the Real-Time Web</title>
+      <link>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</link>
+      <pubDate>Sat, 04 Dec 2010 21:56:05 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</guid>
+      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&#39;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
+ The future of BI 2.0 will not rely on server power, but on the human power of the entire organization to capture everything, convert social media into tangible business objects, and automate real-time business processes.</description>
+    </item>
+    
+    <item>
+      <title>FASB/IASB Reaffirm Convergence Timeline</title>
+      <link>https://www.jmonger.com/posts/2010/12/fasbiasb-reaffirm-convergence-timeline/</link>
+      <pubDate>Fri, 03 Dec 2010 16:48:50 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/12/fasbiasb-reaffirm-convergence-timeline/</guid>
+      <description>FASB released a report on November 29 with the unwieldy title &amp;ldquo;Progress Report on Commitment to Convergence of Accounting Standards and a Single Set of High Quality Global Accounting Standards&amp;rdquo;. Bottom line, FASB and IASB have reaffirmed their commitment to convergence. High priority projects are on track for a June 2011 completion date. The projects included in that designation are the following.
+ Financial instruments Leases Revenue Recognition Consolidations Fair value measurement Derecognition Insurance Contracts  That pretty much covers, well, I don&#39;t know&amp;hellip;80%-90% of everything I&#39;ve ever learned about accounting.</description>
+    </item>
+    
+    <item>
+      <title>HBR: Why It&#39;s Better to Be Smart and Wrong than Just Silent</title>
+      <link>https://www.jmonger.com/posts/2010/11/hbr-why-its-better-to-be-smart-and-wrong-than-just-silent/</link>
+      <pubDate>Tue, 30 Nov 2010 21:52:30 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/hbr-why-its-better-to-be-smart-and-wrong-than-just-silent/</guid>
+      <description>I received this same advice from a senior auditor in a performance review four years ago. It is some of the best career advice I&#39;ve ever received.
+ When you&#39;re not sure what to do or how to proceed, don&#39;t start with a blank slate and ask for help. Instead, start with what you do know, state your intended direction (and rationale behind it) and then get the buy-in or feedback of your manager.</description>
+    </item>
+    
+    <item>
+      <title>HBR: On Creative Accounting, Two Creativity Myths</title>
+      <link>https://www.jmonger.com/posts/2010/11/hbr-on-creative-accounting-two-creativity-myths/</link>
+      <pubDate>Mon, 29 Nov 2010 14:27:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/hbr-on-creative-accounting-two-creativity-myths/</guid>
+      <description>Harvard Business Review had a good blog post this morning called On Creative Accounting: Two Creativity Myths. The term &amp;ldquo;creative accounting&amp;rdquo; conjures up images of Enron, and other massive financial reporting frauds. However, the author points out that creativity, itself, is morally neutral, and because creativity in accounting can be bad, that doesn&#39;t mean that it must be bad. Also, I liked the cartoon.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Futurist Speaks to CPAs</title>
+      <link>https://www.jmonger.com/posts/2010/10/joa-futurist-speaks-to-cpas/</link>
+      <pubDate>Wed, 20 Oct 2010 14:48:18 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/10/joa-futurist-speaks-to-cpas/</guid>
+      <description>Some economic predictions from a &amp;ldquo;strategic forecaster&amp;rdquo; named Pierce Snyder at an AICPA meeting in New Orleans. One can only hope that his prediction on government deleveraging (a nice way of saying debt retirement) is true. The others aren&#39;t really a huge shock but interesting nonetheless.
+ Snyder listed seven economic inevitabilities for the next seven to eight years. Those are: * The entry-level labor pool will shrink by 5%. Workers 16 to 24 years old will be in short supply with intense competition among employers to attract this more tech-savvy generation.</description>
     </item>
     
     <item>
@@ -124,12 +211,60 @@ What, equations don&#39;t do it for you? Well then, let&#39;s dive in. Benford&#
     </item>
     
     <item>
+      <title>How Google Fusion Tables Helped Me Look Awesome</title>
+      <link>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</link>
+      <pubDate>Mon, 23 Aug 2010 14:51:07 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</guid>
+      <description>Last Monday I came into work to find a surprise: a memo seeking clarification of a business decision we had made in opening a new location. Lots of issues were wrapped up in the questions this memo raised, but the bottom line was I needed to prove this new location would not hurt sales at an existing location where the company has a large stake.
+I had customer level data for all our locations which included geolocation information (city, state, zip code, etc.</description>
+    </item>
+    
+    <item>
+      <title>Game Loopholes</title>
+      <link>https://www.jmonger.com/posts/2010/08/game-loopholes/</link>
+      <pubDate>Fri, 13 Aug 2010 13:28:49 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/game-loopholes/</guid>
+      <description>Most of my daily life involves using numbers at work. However, numbers also have a significant role in my play. As a kid, I was a baseball card collector: bought them, traded them, memorized them. I think I liked baseball cards not for the personalities they represented, but because of the data on the back. All games involve numbers. Games of chance, games of skill: it doesn&#39;t really matter. Numbers are the way we measure performance.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Appeals Court Overturns Taxpayer Win in Tax Shelter Case</title>
+      <link>https://www.jmonger.com/posts/2010/08/joa-appeals-court-overturns-taxpayer-win-in-tax-shelter-case/</link>
+      <pubDate>Thu, 05 Aug 2010 15:11:44 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/joa-appeals-court-overturns-taxpayer-win-in-tax-shelter-case/</guid>
+      <description>Most people wouldn&#39;t root for the IRS in a court case, but I&#39;m glad to see this decision. How long before we see &amp;ldquo;Grandson of BOSS&amp;rdquo; tax shelter schemes?
+ The U.S. Court of Appeals for the Tenth Circuit has held that a taxpayer’s investment in a “Son of BOSS” tax shelter lacked economic substance and therefore did not generate deductible losses. This holding reverses a rare taxpayer win on the issue of Son of BOSS tax shelters in which a district court had allowed the taxpayer to deduct losses from the investment.</description>
+    </item>
+    
+    <item>
+      <title>HBR: Does Tax Time Need To Be So Taxing?</title>
+      <link>https://www.jmonger.com/posts/2010/04/hbr-does-tax-time-need-to-be-so-taxing/</link>
+      <pubDate>Wed, 07 Apr 2010 14:22:06 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/04/hbr-does-tax-time-need-to-be-so-taxing/</guid>
+      <description>The Commissioner of the IRS uses a paid preparer for his tax return…..Really?
+ So, I ask again, what’s going on? Here’s one possibility: Over the years, the government turned the tax code over to technical experts, who wrote the regulations, forms, and processes in their own language without regard for the end-user, the citizen, who would be required to use them. As the language and process became more and more arcane, fewer end-users could actually do their own taxes, so an industry of “tax preparers” formed to provide an interface between the tax payer and the taxing authorities.</description>
+    </item>
+    
+    <item>
       <title>Access VBA: Starting from Ground Zero</title>
       <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
       <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
       <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Part Deux (It&#39;s a pun. Get it?)</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</link>
+      <pubDate>Fri, 11 Dec 2009 18:34:04 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</guid>
+      <description>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date.</description>
     </item>
     
     <item>
@@ -152,6 +287,26 @@ To illustrate, here is an example of where a loop might be used.</description>
     </item>
     
     <item>
+      <title>&#34;I should have done more.&#34;</title>
+      <link>https://www.jmonger.com/posts/2009/11/i-should-have-done-more/</link>
+      <pubDate>Mon, 23 Nov 2009 01:38:48 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/11/i-should-have-done-more/</guid>
+      <description>Listened to a podcast this afternoon from &amp;ldquo;This American Life&amp;rdquo; entitled &amp;ldquo;Return to the Giant Pool of Money&amp;rdquo;. The series&amp;rsquo; first episode contains the best explanation of last fall&#39;s financial meltdown I have heard. The &amp;ldquo;return&amp;rdquo; was equally informative. While the podcast contained interviews with many different players, the most interesting character, in my opinion, was Glen.
+Glen was a mortgage company sales manager during the boom. He stated in the first part of the series that during the good times he was netting upwards of 75-100K per month in income.</description>
+    </item>
+    
+    <item>
+      <title>Excel &#34;Protect Sheet&#34; Hack</title>
+      <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
+      <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
+    </item>
+    
+    <item>
       <title>Accounting, finance salaries on the rise</title>
       <link>https://www.jmonger.com/posts/2007/12/accounting-finance-salaries-on-the-rise/</link>
       <pubDate>Sun, 23 Dec 2007 20:37:22 +0000</pubDate>
@@ -159,6 +314,15 @@ To illustrate, here is an example of where a loop might be used.</description>
       <guid>https://www.jmonger.com/posts/2007/12/accounting-finance-salaries-on-the-rise/</guid>
       <description>It is always nice to read an article like this about your profession. Robert Half International has come up with these salary estimates for the following accounting/finance positions in 2008.
   Internal auditor. National average starting salaries for internal audit managers at large companies (more than $250 million in sales) are expected to climb 6.7 percent in 2008, to a range of $81,500 to $109,500 annually. Senior accountant. The greatest gains in starting compensation for senior accountants are expected at midsize companies ($25 million to $250 million in sales), with starting salaries projected to rise 5.</description>
+    </item>
+    
+    <item>
+      <title>If it looks like a duck...</title>
+      <link>https://www.jmonger.com/posts/2007/12/if-it-looks-like-a-duck/</link>
+      <pubDate>Wed, 19 Dec 2007 17:51:19 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2007/12/if-it-looks-like-a-duck/</guid>
+      <description>I recently finished a book on the Enron scandal entitled, &amp;ldquo;The Smartest Guys in the Room.&amp;quot; It was a fantastic book and, for the accounting geeks, had good descriptions of the related party transactions that Enron used to prop up their earnings during the late 90s. The SPEs had really fun names like Chewco and Jedi and Whitewing. Inside, I think Fastow must have been a Star Wars fanboy. Amidst all the accounting and structured finance shenanigans, there was a paragraph from an employee that summarized the entire meltdown.</description>
     </item>
     
     <item>

@@ -6,10 +6,20 @@
     <description>Recent content in Tech on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Mar 2011 19:49:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Feb 2012 21:37:31 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
+      <link>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
+One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
+    </item>
     
     <item>
       <title>April Fools Is Better With Visual Basic</title>
@@ -18,6 +28,35 @@
       
       <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
       <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Dashboard Your Scorecard</title>
+      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
+      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
+      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
+    </item>
+    
+    <item>
+      <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
+      <link>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</link>
+      <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</guid>
+      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
+    </item>
+    
+    <item>
+      <title>GigaOM: Get Business Intelligence Ready for the Real-Time Web</title>
+      <link>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</link>
+      <pubDate>Sat, 04 Dec 2010 21:56:05 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</guid>
+      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&#39;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
+ The future of BI 2.0 will not rely on server power, but on the human power of the entire organization to capture everything, convert social media into tangible business objects, and automate real-time business processes.</description>
     </item>
     
     <item>
@@ -40,12 +79,31 @@
     </item>
     
     <item>
+      <title>How Google Fusion Tables Helped Me Look Awesome</title>
+      <link>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</link>
+      <pubDate>Mon, 23 Aug 2010 14:51:07 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</guid>
+      <description>Last Monday I came into work to find a surprise: a memo seeking clarification of a business decision we had made in opening a new location. Lots of issues were wrapped up in the questions this memo raised, but the bottom line was I needed to prove this new location would not hurt sales at an existing location where the company has a large stake.
+I had customer level data for all our locations which included geolocation information (city, state, zip code, etc.</description>
+    </item>
+    
+    <item>
       <title>Access VBA: Starting from Ground Zero</title>
       <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
       <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
       <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Part Deux (It&#39;s a pun. Get it?)</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</link>
+      <pubDate>Fri, 11 Dec 2009 18:34:04 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</guid>
+      <description>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date.</description>
     </item>
     
     <item>
@@ -65,6 +123,16 @@ To illustrate, here is an example of where a loop might be used.</description>
       
       <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
       <description>When individuals outside the profession think of accounting, they don&#39;t often consider its subjective nature. Most people assume there are bright line rules and it&#39;s the CPA&#39;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+    </item>
+    
+    <item>
+      <title>Excel &#34;Protect Sheet&#34; Hack</title>
+      <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
+      <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
     </item>
     
   </channel>

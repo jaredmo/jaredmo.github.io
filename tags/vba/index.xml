@@ -29,5 +29,15 @@
       <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
     </item>
     
+    <item>
+      <title>Excel &#34;Protect Sheet&#34; Hack</title>
+      <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
+      <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
+    </item>
+    
   </channel>
 </rss>
