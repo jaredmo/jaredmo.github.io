@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VBA on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/vba/</link>
+    <description>Recent content in VBA on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Mar 2011 19:49:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/vba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April Fools Is Better With Visual Basic</title>
+      <link>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</link>
+      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Access VBA: Starting from Ground Zero</title>
+      <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
+      <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
+      <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+  </channel>
+</rss>

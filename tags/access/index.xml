@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Access on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/access/</link>
+    <description>Recent content in Access on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Mar 2010 13:47:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/access/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Access VBA: Starting from Ground Zero</title>
+      <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
+      <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
+      <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+  </channel>
+</rss>

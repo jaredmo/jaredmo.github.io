@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAS on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/sas/</link>
+    <description>Recent content in SAS on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Feb 2011 15:48:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Should Accountants Be Required to Code</title>
+      <link>https://www.jmonger.com/posts/2011/02/should-accountants-be-required-to-code/</link>
+      <pubDate>Tue, 22 Feb 2011 15:48:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/should-accountants-be-required-to-code/</guid>
+      <description>Sometimes, I wonder where I fit on the career spectrum. I am trained as a CPA and 90% of my daily work involves accounting in some form. However, I am also a programmer who geeks out when I find a new way to automate processes or transform data into knowledge. My boss made a comment a few weeks ago in a meeting, “If you want to get Jared excited, ask him about two things: 1) His family or 2) SAS.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Useful Tool in SAS User&#39;s Toolbox</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</link>
+      <pubDate>Wed, 09 Dec 2009 15:21:29 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</guid>
+      <description>DO Loops in SAS are outside the scope of what most beginning users feel comfortable tackling. However, they are a powerful, time-saving tool in the report writer’s toolbox. For those unfamiliar with programming, loops are a set of instructions that the programmer tells the computer to repeat until predefined condition(s) are true. It’s a simple concept but powerful in execution.
+To illustrate, here is an example of where a loop might be used.</description>
+    </item>
+    
+    <item>
+      <title>Actuarial Triangle: Powerful Tool for Accounting Estimates</title>
+      <link>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</link>
+      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
+      <description>When individuals outside the profession think of accounting, they don&#39;t often consider its subjective nature. Most people assume there are bright line rules and it&#39;s the CPA&#39;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+    </item>
+    
+  </channel>
+</rss>

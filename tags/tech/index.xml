@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/tech/</link>
+    <description>Recent content in Tech on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Mar 2011 19:49:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April Fools Is Better With Visual Basic</title>
+      <link>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</link>
+      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Crypto and Backdoors</title>
+      <link>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</link>
+      <pubDate>Tue, 05 Oct 2010 01:14:12 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</guid>
+      <description>Steve Gibson and Leo Laporte did a great podcast this week regarding the Obama administration&#39;s proposed crypto-backdoor legislation. This is same issue Schneier discussed in his post from last week. Here are my takeaways.
+ The technology for strong encryption already exists. It&#39;s math. Bad guys will still use it. Backdoor mandates will only hurt law abiding citizens. If this passes as requested by law enforcement, secure peer-to-peer communication would become illegal and the systems that support it subject to redesign.</description>
+    </item>
+    
+    <item>
+      <title>Bruce Schneier on Wiretapping the Internet</title>
+      <link>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</link>
+      <pubDate>Thu, 30 Sep 2010 14:21:10 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</guid>
+      <description>For those who&#39;ve never heard of him Bruce Schneier is a cryptography expert (notably created the Blowfish block cipher and Solitaire stream cipher). He authors a good blog on info security issues and recently had a post about Obama&#39;s internet wiretapping proposal. This is a bad idea for all sorts of reasons and Schneier does a good job outlining the risks. CPAs, especially those in IT audit functions, should pay attention to how this issue progresses as this could have substantial compliance ramifications for clients in all industries.</description>
+    </item>
+    
+    <item>
+      <title>Access VBA: Starting from Ground Zero</title>
+      <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
+      <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
+      <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Useful Tool in SAS User&#39;s Toolbox</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</link>
+      <pubDate>Wed, 09 Dec 2009 15:21:29 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</guid>
+      <description>DO Loops in SAS are outside the scope of what most beginning users feel comfortable tackling. However, they are a powerful, time-saving tool in the report writer’s toolbox. For those unfamiliar with programming, loops are a set of instructions that the programmer tells the computer to repeat until predefined condition(s) are true. It’s a simple concept but powerful in execution.
+To illustrate, here is an example of where a loop might be used.</description>
+    </item>
+    
+    <item>
+      <title>Actuarial Triangle: Powerful Tool for Accounting Estimates</title>
+      <link>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</link>
+      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
+      <description>When individuals outside the profession think of accounting, they don&#39;t often consider its subjective nature. Most people assume there are bright line rules and it&#39;s the CPA&#39;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+    </item>
+    
+  </channel>
+</rss>

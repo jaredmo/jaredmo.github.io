@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jared Monger">
+    <meta name="description" content="Jared Monger&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="April Fools Is Better With Visual Basic"/>
+<meta name="twitter:description" content="Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&ldquo;VBA&rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis."/>
+
+    <meta property="og:title" content="April Fools Is Better With Visual Basic" />
+<meta property="og:description" content="Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&ldquo;VBA&rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/" />
+<meta property="article:published_time" content="2011-03-31T19:49:08+00:00" />
+<meta property="article:modified_time" content="2011-03-31T19:49:08+00:00" />
+
+
+    
+      <base href="https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/">
+    
+    <title>
+  April Fools Is Better With Visual Basic · Jared Monger
+</title>
+
+    
+      <link rel="canonical" href="https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.62.2" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://www.jmonger.com/">
+      Jared Monger
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/resume/">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/contact/">Contact</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">April Fools Is Better With Visual Basic</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2011-03-31T19:49:08Z'>
+                March 31, 2011
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://www.jmonger.com/tags/fun/">Fun</a>
+      <span class="separator">•</span>
+    <a href="https://www.jmonger.com/tags/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="https://www.jmonger.com/tags/vba/">VBA</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another's expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren't familiar with Visual Basic for Applications (&ldquo;VBA&rdquo;), it's a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis. VBA is really useful when used correctly.</p>
+<p>Well, like any powerful tool, VBA can used for good and evil. That's one of the reasons Microsoft has warning messages and sirens every time a workbook is opened that contains code. On April 1 every year, I find VBA good for some laughs. Here's two of my favorites. (Full disclosure: The first one I created myself, but be careful as it can cause work to be lost if not used appropriately. The second I took from a VBA forum and modified to suit my needs.)</p>
+<h4 id="automatically-close-excel-when-a-workbook-is-opened">Automatically Close Excel When A Workbook Is Opened</h4>
+<p>This one is simple, but I don't tend to use it unless I plan to tell someone how to fix. Essentially, when a file is opened, the code below will automatically close all instances of Excel and tell the user &ldquo;Excel is currently experiencing technical difficulties.&rdquo; Fair warning, you'll want to do this when you're sure all instances of Excel are already closed on their machine. If they have anything open, they could lose work and then nobody is laughing. Excel has a standard folder that, when the program is launched, every workbook in that folder is opened and all VBA code is auto-executed. Here's the path: <code>C:\Documents and Settings\[User name]\Application Data\Microsoft\Excel\XLSTART</code></p>
+<p>If you create a new workbook in Excel 2007, go to Developer &gt; Visual Basic, and copy the code below in the &ldquo;ThisWorkbook&rdquo; section. Save the file as .xls (2003) and then move it to the path above. Once you are ready for the madness to end, or your coworker is on the verge throwing their computer out the window, just remove your file from their XLSTART folder.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Private Sub 
+Workbook_Open() 
+MsgBox &#34;Excel is currently experiencing technical difficulties.&#34; 
+Application.DisplayAlerts = False 
+Application.Quit 
+End Sub
+</code></pre></div><h4 id="excel-is-very-polite-today">Excel Is Very Polite Today</h4>
+<p>I really like this one. It is harmless, and instantly recognizable as a joke. Only works at the workbook level, so you'll have to hand pick the file you place it in. Essentially, every time a user changes a cell in the target range (A1:AZ10000), a message box appears saying &ldquo;Thank you. Cell XYZ has been changed.&rdquo; It's awesome. Just follow the same process as above to copy/paste the code into the VBA window of the desired sheet in your workbook.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Private Sub 
+Worksheet_Change(ByVal Target As Range) Dim KeyCells As Range 
+&#39; The variable KeyCells contains the cells that will 
+&#39; cause an alert when they are changed. 
+Set KeyCells = Range(&#34;A1:AZ10000&#34;) 
+If Not Application.Intersect(KeyCells, Range(Target.Address)) _ Is Nothing Then 
+&#39; Display a message when one of the designated cells has been 
+&#39; changed. 
+&#39; Place your code here. 
+MsgBox &#34;Thank you. Cell &#34; &amp; Target.Address &amp; &#34; has been changed.&#34; 
+End If 
+End Sub
+</code></pre></div><p>Hope everyone has a safe and happy April 1. April Fools is always better when you're a geek.</p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2007 - 2020
+      
+       Jared Monger 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

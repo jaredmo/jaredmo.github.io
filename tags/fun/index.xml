@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/fun/</link>
+    <description>Recent content in Fun on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Mar 2011 19:49:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>April Fools Is Better With Visual Basic</title>
+      <link>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</link>
+      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Compound Interest: A Lesson From My Dad</title>
+      <link>https://www.jmonger.com/posts/2011/02/compound-interest-a-lesson-from-my-dad/</link>
+      <pubDate>Sun, 27 Feb 2011 21:39:24 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/compound-interest-a-lesson-from-my-dad/</guid>
+      <description>“The most powerful force in the universe is compound interest” -Albert Einstein
+My dad first taught me about compound interest when I was 18 years old. I was working for him, doing maintenance on our family&#39;s office building, and had some extra money burning a hole in my pocket. He wanted to teach me that there are better things to do with money than just blow it on music and video games (a tough argument for a teenager).</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Lords of Finance, The Bankers Who Broke the World</title>
+      <link>https://www.jmonger.com/posts/2011/01/book-review-lords-of-finance-the-bankers-who-broke-the-world/</link>
+      <pubDate>Wed, 19 Jan 2011 18:23:05 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/01/book-review-lords-of-finance-the-bankers-who-broke-the-world/</guid>
+      <description>Recently finished a book on the Great Depression called Lords of Finance: The Bankers Who Broke the World. It was a 500+ page behemoth, but a surprisingly quick read. The story focuses on four central bankers during the 20s and 30s: Benjamin Strong of the Federal Reserve of New York, Montagu Norman of the Bank of England, Emile Morceau of the Banque de France, and Hjalmer Schacht of the Reichsbank of Germany.</description>
+    </item>
+    
+    <item>
+      <title>Benford&#39;s Law</title>
+      <link>https://www.jmonger.com/posts/2010/10/benfords-law/</link>
+      <pubDate>Sat, 16 Oct 2010 01:11:26 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/10/benfords-law/</guid>
+      <description>My wife tells me my blog is boring because it doesn&#39;t have enough pictures&amp;hellip;and also it&#39;s about accounting. So, with that in mind, I am prepared to blow your mind with this post, pictures and all. Benford&#39;s Law. Who&#39;s heard of it? Anybody. Anybody. Bueller&amp;hellip;. This is Benford&#39;s Law.
+What, equations don&#39;t do it for you? Well then, let&#39;s dive in. Benford&#39;s Law is one of those things that can be proven mathematically, but flies in the face of common sense.</description>
+    </item>
+    
+    <item>
+      <title>Darth JEDAR</title>
+      <link>https://www.jmonger.com/posts/2010/10/darth-jedar/</link>
+      <pubDate>Sun, 10 Oct 2010 23:15:44 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/10/darth-jedar/</guid>
+      <description>I found this picture in a pile of papers under my stairs and it reminded me of a fun memory so I thought I would share. While working at D&amp;amp;T, I was stationed for the better part of a year on one large client. During that period, I spent more time with those people than I did with my wife. We got to know each other well, and as would be expected with long hours and tough deadlines, some nicknames emerged.</description>
+    </item>
+    
+  </channel>
+</rss>
