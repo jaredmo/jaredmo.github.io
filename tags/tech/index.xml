@@ -22,12 +22,32 @@ One useful function for creating dynamic links within the same workbook is INDIR
     </item>
     
     <item>
+      <title>R for SAS and SPSS Users, A Review</title>
+      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
+      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
+      <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
+    </item>
+    
+    <item>
       <title>April Fools Is Better With Visual Basic</title>
       <link>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</link>
       <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
       <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Mapping an MS Access Database to SAS Library</title>
+      <link>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</link>
+      <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
+      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&#39;t find any other ideas.</description>
     </item>
     
     <item>
@@ -60,6 +80,24 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
     </item>
     
     <item>
+      <title>xkcd: SQL Injection Comic</title>
+      <link>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</link>
+      <pubDate>Fri, 05 Nov 2010 13:54:02 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</guid>
+      <description>I love xkcd. This is old, but I&#39;m slow on the uptake. I also love that a comic spawned a website on how to prevent SQL injection attacks.</description>
+    </item>
+    
+    <item>
+      <title>SAS EG: Filtering a dataset via prompt manager variable</title>
+      <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
+      <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
+      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+    </item>
+    
+    <item>
       <title>Crypto and Backdoors</title>
       <link>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</link>
       <pubDate>Tue, 05 Oct 2010 01:14:12 +0000</pubDate>
@@ -86,6 +124,25 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <guid>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</guid>
       <description>Last Monday I came into work to find a surprise: a memo seeking clarification of a business decision we had made in opening a new location. Lots of issues were wrapped up in the questions this memo raised, but the bottom line was I needed to prove this new location would not hurt sales at an existing location where the company has a large stake.
 I had customer level data for all our locations which included geolocation information (city, state, zip code, etc.</description>
+    </item>
+    
+    <item>
+      <title>Nowadays, Everyone Is a Geek</title>
+      <link>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</link>
+      <pubDate>Thu, 12 Aug 2010 16:15:18 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</guid>
+      <description>These days everyone is calling themselves a geek. Somewhere along the way, it became a fashionable term. With the rise of the mobile web and modern day social networking, everyone, it seems, is into technology. Welcome newcomers. It was not always so. Geeks have been around looooong before it was fashionable. In fact, I was a geek before the average man even knew what the internet was. The world wide web was only used by institutions.</description>
+    </item>
+    
+    <item>
+      <title>Web Browsing via Linux: Prudent or Paranoid</title>
+      <link>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</link>
+      <pubDate>Wed, 04 Aug 2010 18:44:46 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</guid>
+      <description>Last week, I was listening to a podcast called Security Now! (which you should check out by the way). Steve Gibson, the host, mentioned a recently discovered Windows vulnerability that has been present in the OS going back 10+ years. Needless to say this was a little concerning that a vulnerability could exist for so long without being noticed, much less patched.
+Microsoft has since rolled out a patch that plugs the hole, but the question remains, &amp;ldquo;Should I be surfing the web in the same OS I use to manage my finances and other sensitive info?</description>
     </item>
     
     <item>

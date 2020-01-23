@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/r/</link>
+    <description>Recent content in R on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jun 2011 15:08:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.jmonger.com/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R for SAS and SPSS Users, A Review</title>
+      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
+      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
+      <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
+    </item>
+    
+  </channel>
+</rss>
