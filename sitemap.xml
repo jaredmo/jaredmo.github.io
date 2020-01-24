@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jmonger.com/</loc>
+    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</loc>
+    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/posts/</loc>
+    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/tags/</loc>
+    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/tags/tech/</loc>
+    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jmonger.com/tags/healthcare/</loc>
     <lastmod>2013-12-29T21:56:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.jmonger.com/</loc>
-    <lastmod>2013-12-29T21:56:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/</loc>
-    <lastmod>2013-12-29T21:56:18+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jmonger.com/posts/2013/12/some-thoughts-on-the-affordable-care-act/</loc>
-    <lastmod>2013-12-29T21:56:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/</loc>
     <lastmod>2013-12-29T21:56:18+00:00</lastmod>
   </url>
   
@@ -58,12 +68,7 @@
   </url>
   
   <url>
-    <loc>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</loc>
-    <lastmod>2012-02-11T21:37:31+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/tech/</loc>
+    <loc>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</loc>
     <lastmod>2012-02-11T21:37:31+00:00</lastmod>
   </url>
   
@@ -114,17 +119,17 @@
   
   <url>
     <loc>https://www.jmonger.com/tags/r/</loc>
-    <lastmod>2011-06-06T15:08:01+00:00</lastmod>
+    <lastmod>2011-06-06T15:08:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/posts/2011/06/learning-r/</loc>
-    <lastmod>2011-06-06T15:08:01+00:00</lastmod>
+    <lastmod>2011-06-06T15:08:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/tags/sas/</loc>
-    <lastmod>2011-06-06T15:08:01+00:00</lastmod>
+    <lastmod>2011-06-06T15:08:00+00:00</lastmod>
   </url>
   
   <url>
@@ -213,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</loc>
+    <loc>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</loc>
     <lastmod>2011-02-11T17:12:37+00:00</lastmod>
   </url>
   
@@ -253,7 +258,12 @@
   </url>
   
   <url>
-    <loc>https://www.jmonger.com/posts/2011/02/should-accountants-be-required-to-code/</loc>
+    <loc>https://www.jmonger.com/tags/featured/</loc>
+    <lastmod>2010-12-07T17:29:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</loc>
     <lastmod>2010-12-07T17:29:11+00:00</lastmod>
   </url>
   
@@ -275,6 +285,11 @@
   <url>
     <loc>https://www.jmonger.com/posts/2010/11/hbr-on-creative-accounting-two-creativity-myths/</loc>
     <lastmod>2010-11-29T14:27:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/posts/2010/11/1-timothy-66-12/</loc>
+    <lastmod>2010-11-23T23:31:07+00:00</lastmod>
   </url>
   
   <url>

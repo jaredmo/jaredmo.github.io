@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SAS on Jared Monger</title>
-    <link>https://www.jmonger.com/tags/sas/</link>
-    <description>Recent content in SAS on Jared Monger</description>
+    <title>Featured on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/featured/</link>
+    <description>Recent content in Featured on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jun 2011 15:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2010 17:29:11 +0000</lastBuildDate>
     
-	<atom:link href="https://www.jmonger.com/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jmonger.com/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>R for SAS and SPSS Users, A Review</title>
-      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
-      <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
-My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
-    </item>
-    
-    <item>
-      <title>Mapping an MS Access Database to SAS Library</title>
-      <link>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</link>
-      <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
-      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&#39;t find any other ideas.</description>
-    </item>
-    
-    <item>
-      <title>JoA: Dashboard Your Scorecard</title>
-      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
-      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
-      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
-    </item>
     
     <item>
       <title>Should Accountants Be Required to Code</title>
@@ -50,12 +21,23 @@ Searched around and couldn&#39;t find any other ideas.</description>
     </item>
     
     <item>
-      <title>SAS EG: Filtering a dataset via prompt manager variable</title>
-      <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
-      <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
+      <title>Stanford International Bank Fraud</title>
+      <link>https://www.jmonger.com/posts/2010/10/stanford-international-bank-sib-fraud/</link>
+      <pubDate>Tue, 12 Oct 2010 12:15:22 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
-      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+      <guid>https://www.jmonger.com/posts/2010/10/stanford-international-bank-sib-fraud/</guid>
+      <description>While Bernie Madoff was busy having his face shown all over the news last year, a smaller but equally devastating Ponzi scheme was discovered by federal authorities: Standford International Bank (&amp;ldquo;SIB&amp;rdquo;). Because of the dollars involved in Madoff&#39;s scam ($65 billion), the Stanford fraud ($7.2 billion) didn&#39;t get much press coverage. However, for the victims of this fraud, the outcome may be worse.
+Stanford International Bank was started in 1986 by Allen Stanford.</description>
+    </item>
+    
+    <item>
+      <title>The Art of Managing Well</title>
+      <link>https://www.jmonger.com/posts/2010/06/the-art-of-managing-well/</link>
+      <pubDate>Tue, 29 Jun 2010 17:29:47 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/06/the-art-of-managing-well/</guid>
+      <description>&amp;ldquo;I believe managing is like holding a dove in your hand. If you hold it too tightly you kill it, but if you hold it too loosely, you lose it.&amp;rdquo; -Tommy Lasorda
+There is an art to managing well. I&#39;ll be the first to admit I am still learning. As I have been given positions of leadership, one of the things I&#39;ve tried to do is look back on leaders I admire for traits to emulate.</description>
     </item>
     
     <item>

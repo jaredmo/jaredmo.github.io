@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2013 21:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 10:28:28 -0600</lastBuildDate>
     
 	<atom:link href="https://www.jmonger.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Migrating from Wordpress to Hugo</title>
+      <link>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Fri, 24 Jan 2020 10:28:28 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</guid>
+      <description>For around 6 years, I ran a Wordpress site called Numbermonger that focused on accounting and technology. The site averaged a few thousand visitors a month - mostly SAS programmers and other technology-minded accountants. Wordpress had a number of features that I enjoyed using, but I eventually came to the conclusion that it was overkill for my needs. Work and personal life also became busier, and my appetite to sit down and write dried up.</description>
+    </item>
     
     <item>
       <title>Some Thoughts on the Affordable Care Act</title>
@@ -52,10 +61,10 @@ The most amazing part is even after his conviction Stanford still claims he wasn
     
     <item>
       <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
-      <link>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
       <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
 One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
     </item>
@@ -101,7 +110,7 @@ During the latter half of 1636 Tulip prices in Holland skyrocketed. By the peak 
     <item>
       <title>R for SAS and SPSS Users, A Review</title>
       <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
       <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
@@ -206,10 +215,10 @@ He had some great accounting textbooks from his MBA at University of Chicago in 
     
     <item>
       <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
-      <link>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</link>
+      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
       <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</guid>
+      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
       <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
 VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
     </item>
@@ -275,10 +284,10 @@ Charles Dickens, David Copperfield</description>
     
     <item>
       <title>Should Accountants Be Required to Code</title>
-      <link>https://www.jmonger.com/posts/2011/02/should-accountants-be-required-to-code/</link>
+      <link>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</link>
       <pubDate>Tue, 07 Dec 2010 17:29:11 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2011/02/should-accountants-be-required-to-code/</guid>
+      <guid>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</guid>
       <description>Sometimes, I wonder where I fit on the career spectrum. I am trained as a CPA and 90% of my daily work involves accounting in some form. However, I am also a programmer who geeks out when I find a new way to automate processes or transform data into knowledge. My boss made a comment a few weeks ago in a meeting, “If you want to get Jared excited, ask him about two things: 1) His family or 2) SAS.</description>
     </item>
     
@@ -319,6 +328,16 @@ Charles Dickens, David Copperfield</description>
       
       <guid>https://www.jmonger.com/posts/2010/11/hbr-on-creative-accounting-two-creativity-myths/</guid>
       <description>Harvard Business Review had a good blog post this morning called On Creative Accounting: Two Creativity Myths. The term &amp;ldquo;creative accounting&amp;rdquo; conjures up images of Enron, and other massive financial reporting frauds. However, the author points out that creativity, itself, is morally neutral, and because creativity in accounting can be bad, that doesn&#39;t mean that it must be bad. Also, I liked the cartoon.</description>
+    </item>
+    
+    <item>
+      <title>We brought nothing into the world...</title>
+      <link>https://www.jmonger.com/posts/2010/11/1-timothy-66-12/</link>
+      <pubDate>Tue, 23 Nov 2010 23:31:07 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/1-timothy-66-12/</guid>
+      <description>Written 2 millennia ago; relevant today. Human nature does not change.
+ Now there is great gain in godliness with contentment, for we brought nothing into the world, and we cannot take anything out of the world. But if we have food and clothing, with these we will be content. But those who desire to be rich fall into temptation, into a snare, into many senseless and harmful desires that plunge people into ruin and destruction.</description>
     </item>
     
     <item>
@@ -490,8 +509,8 @@ Stanford International Bank was started in 1986 by Allen Stanford.</description>
       <pubDate>Tue, 28 Sep 2010 22:37:12 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/09/tennessean-crack-tax-refund/</guid>
-      <description>title: &amp;lsquo;Tennessean: &amp;lsquo;&amp;lsquo;Crack Tax&amp;rsquo;&amp;rsquo; Refund&amp;rsquo; date: Tue, 28 Sep 2010 22:37:12 +0000 draft: false tags: [&amp;lsquo;News&amp;rsquo;, &amp;lsquo;Tax&amp;rsquo;] Today&#39;s Tennessean had an eye catching headline: &amp;ldquo;2,772 people could be eligible for &amp;lsquo;crack tax&amp;rsquo; refunds in TN&amp;rdquo;.
-You read that correctly, a &amp;lsquo;crack tax&amp;rsquo; refund. From reading the article, it seems our Department of Revenue had been assessing a property tax on crack cocaine dealers. They even &amp;ldquo;chased people down at the courthouse to get gold chains&amp;rdquo; to collect it.</description>
+      <description>Today&#39;s Tennessean had an eye catching headline: &amp;ldquo;2,772 people could be eligible for &amp;lsquo;crack tax&amp;rsquo; refunds in TN&amp;rdquo;.
+You read that correctly, a &amp;lsquo;crack tax&amp;rsquo; refund. From reading the article, it seems our Department of Revenue had been assessing a property tax on crack cocaine dealers. They even &amp;ldquo;chased people down at the courthouse to get gold chains&amp;rdquo; to collect it. I knew tax revenues were down, but&amp;hellip;seriously? Well, it turns out state law doesn&#39;t view crack dealers as &amp;ldquo;merchants&amp;rdquo; or &amp;ldquo;peddlers&amp;rdquo;, and now they all get refunds.</description>
     </item>
     
     <item>

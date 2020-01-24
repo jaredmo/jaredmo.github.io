@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2013 21:56:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 10:28:28 -0600</lastBuildDate>
     
 	<atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tech</title>
+      <link>https://www.jmonger.com/tags/tech/</link>
+      <pubDate>Fri, 24 Jan 2020 10:28:28 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/tags/tech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Healthcare</title>
@@ -44,15 +53,6 @@
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
       
       <guid>https://www.jmonger.com/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tech</title>
-      <link>https://www.jmonger.com/tags/tech/</link>
-      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -104,7 +104,7 @@
     <item>
       <title>R</title>
       <link>https://www.jmonger.com/tags/r/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/tags/r/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>SAS</title>
       <link>https://www.jmonger.com/tags/sas/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/tags/sas/</guid>
       <description></description>
@@ -188,6 +188,15 @@
       <pubDate>Wed, 15 Dec 2010 21:07:37 +0000</pubDate>
       
       <guid>https://www.jmonger.com/tags/tax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured</title>
+      <link>https://www.jmonger.com/tags/featured/</link>
+      <pubDate>Tue, 07 Dec 2010 17:29:11 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/tags/featured/</guid>
       <description></description>
     </item>
     

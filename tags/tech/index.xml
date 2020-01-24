@@ -6,17 +6,26 @@
     <description>Recent content in Tech on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Feb 2012 21:37:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jan 2020 10:28:28 -0600</lastBuildDate>
     
 	<atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Migrating from Wordpress to Hugo</title>
+      <link>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Fri, 24 Jan 2020 10:28:28 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</guid>
+      <description>For around 6 years, I ran a Wordpress site called Numbermonger that focused on accounting and technology. The site averaged a few thousand visitors a month - mostly SAS programmers and other technology-minded accountants. Wordpress had a number of features that I enjoyed using, but I eventually came to the conclusion that it was overkill for my needs. Work and personal life also became busier, and my appetite to sit down and write dried up.</description>
+    </item>
+    
+    <item>
       <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
-      <link>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
       <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
 One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
     </item>
@@ -24,7 +33,7 @@ One useful function for creating dynamic links within the same workbook is INDIR
     <item>
       <title>R for SAS and SPSS Users, A Review</title>
       <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:01 +0000</pubDate>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
       <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
@@ -61,10 +70,10 @@ Searched around and couldn&#39;t find any other ideas.</description>
     
     <item>
       <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
-      <link>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</link>
+      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
       <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</guid>
+      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
       <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
 VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
     </item>

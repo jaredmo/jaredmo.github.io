@@ -13,10 +13,10 @@
     
     <item>
       <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
-      <link>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2011/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
       <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
 One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
     </item>
@@ -32,10 +32,10 @@ One useful function for creating dynamic links within the same workbook is INDIR
     
     <item>
       <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
-      <link>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</link>
+      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
       <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/posts/2009/12/excel-vlookup-vs-match-index-no-contest/</guid>
+      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
       <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
 VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
     </item>
