@@ -36,7 +36,7 @@ One useful function for creating dynamic links within the same workbook is INDIR
       <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
-      <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+      <description>If you&amp;rsquo;ve followed me for any length of time, you&amp;rsquo;ll know that I&amp;rsquo;m a proponent of good data analysis. I was not formally educated as a programmer but I&amp;rsquo;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
 My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
     </item>
     
@@ -46,7 +46,7 @@ My primary tool for 4 years has been SAS. It is an awesome, easy to learn langua
       <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
-      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&amp;rsquo;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&amp;rsquo;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&amp;rsquo;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
     </item>
     
     <item>
@@ -55,8 +55,8 @@ My primary tool for 4 years has been SAS. It is an awesome, easy to learn langua
       <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
-      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&#39;t find any other ideas.</description>
+      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&amp;rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&amp;rsquo;t find any other ideas.</description>
     </item>
     
     <item>
@@ -75,7 +75,7 @@ Searched around and couldn&#39;t find any other ideas.</description>
       
       <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
       <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&#39;s an example of VLOOKUP in action.</description>
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <pubDate>Sat, 04 Dec 2010 21:56:05 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</guid>
-      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&#39;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
+      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&amp;rsquo;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
  The future of BI 2.0 will not rely on server power, but on the human power of the entire organization to capture everything, convert social media into tangible business objects, and automate real-time business processes.</description>
     </item>
     
@@ -94,7 +94,7 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <pubDate>Fri, 05 Nov 2010 13:54:02 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</guid>
-      <description>I love xkcd. This is old, but I&#39;m slow on the uptake. I also love that a comic spawned a website on how to prevent SQL injection attacks.</description>
+      <description>I love xkcd. This is old, but I&amp;rsquo;m slow on the uptake. I also love that a comic spawned a website on how to prevent SQL injection attacks.</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
-      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
     </item>
     
     <item>
@@ -112,8 +112,8 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <pubDate>Tue, 05 Oct 2010 01:14:12 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</guid>
-      <description>Steve Gibson and Leo Laporte did a great podcast this week regarding the Obama administration&#39;s proposed crypto-backdoor legislation. This is same issue Schneier discussed in his post from last week. Here are my takeaways.
- The technology for strong encryption already exists. It&#39;s math. Bad guys will still use it. Backdoor mandates will only hurt law abiding citizens. If this passes as requested by law enforcement, secure peer-to-peer communication would become illegal and the systems that support it subject to redesign.</description>
+      <description>Steve Gibson and Leo Laporte did a great podcast this week regarding the Obama administration&amp;rsquo;s proposed crypto-backdoor legislation. This is same issue Schneier discussed in his post from last week. Here are my takeaways.
+ The technology for strong encryption already exists. It&amp;rsquo;s math. Bad guys will still use it. Backdoor mandates will only hurt law abiding citizens. If this passes as requested by law enforcement, secure peer-to-peer communication would become illegal and the systems that support it subject to redesign.</description>
     </item>
     
     <item>
@@ -122,7 +122,7 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <pubDate>Thu, 30 Sep 2010 14:21:10 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</guid>
-      <description>For those who&#39;ve never heard of him Bruce Schneier is a cryptography expert (notably created the Blowfish block cipher and Solitaire stream cipher). He authors a good blog on info security issues and recently had a post about Obama&#39;s internet wiretapping proposal. This is a bad idea for all sorts of reasons and Schneier does a good job outlining the risks. CPAs, especially those in IT audit functions, should pay attention to how this issue progresses as this could have substantial compliance ramifications for clients in all industries.</description>
+      <description>For those who&amp;rsquo;ve never heard of him Bruce Schneier is a cryptography expert (notably created the Blowfish block cipher and Solitaire stream cipher). He authors a good blog on info security issues and recently had a post about Obama&amp;rsquo;s internet wiretapping proposal. This is a bad idea for all sorts of reasons and Schneier does a good job outlining the risks. CPAs, especially those in IT audit functions, should pay attention to how this issue progresses as this could have substantial compliance ramifications for clients in all industries.</description>
     </item>
     
     <item>
@@ -188,7 +188,7 @@ To illustrate, here is an example of where a loop might be used.</description>
       <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
-      <description>When individuals outside the profession think of accounting, they don&#39;t often consider its subjective nature. Most people assume there are bright line rules and it&#39;s the CPA&#39;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+      <description>When individuals outside the profession think of accounting, they don&amp;rsquo;t often consider its subjective nature. Most people assume there are bright line rules and it&amp;rsquo;s the CPA&amp;rsquo;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
     </item>
     
     <item>
@@ -197,7 +197,7 @@ To illustrate, here is an example of where a loop might be used.</description>
       <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
-      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&amp;rsquo;t write the code below, but I am not ashamed to use it.
 The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
     </item>
     

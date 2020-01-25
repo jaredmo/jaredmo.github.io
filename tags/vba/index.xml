@@ -17,7 +17,7 @@
       <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
-      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&#39;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&#39;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&#39;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&amp;rsquo;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&amp;rsquo;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&amp;rsquo;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
-      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&amp;rsquo;t write the code below, but I am not ashamed to use it.
 The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
     </item>
     

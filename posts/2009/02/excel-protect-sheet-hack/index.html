@@ -11,11 +11,11 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Excel &#34;Protect Sheet&#34; Hack"/>
-<meta name="twitter:description" content="I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+<meta name="twitter:description" content="I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&rsquo;t write the code below, but I am not ashamed to use it.
 The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &ldquo;A&rdquo; or &ldquo;B&rdquo; except the last which can be any character from ASCII code 32 to 255."/>
 
     <meta property="og:title" content="Excel &#34;Protect Sheet&#34; Hack" />
-<meta property="og:description" content="I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&#39;t write the code below, but I am not ashamed to use it.
+<meta property="og:description" content="I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&rsquo;t write the code below, but I am not ashamed to use it.
 The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &ldquo;A&rdquo; or &ldquo;B&rdquo; except the last which can be any character from ASCII code 32 to 255." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/" />
@@ -57,7 +57,7 @@ The algorithm relies on a backdoor password that can be 1 to 9 characters long w
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.1" />
   </head>
 
   
@@ -135,8 +135,8 @@ The algorithm relies on a backdoor password that can be 1 to 9 characters long w
       </header>
 
       <div>
-        <p>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn't write the code below, but I am not ashamed to use it.</p>
-<p>The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &ldquo;A&rdquo; or &ldquo;B&rdquo; except the last which can be any character from ASCII code 32 to 255. Enjoy and please use responsibly. Of course, if someone is foolish enough to believe Excel is a secure medium for storing confidential information anyway, they deserve what's coming to them.</p>
+        <p>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &ldquo;Protect Sheet&rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&rsquo;t write the code below, but I am not ashamed to use it.</p>
+<p>The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &ldquo;A&rdquo; or &ldquo;B&rdquo; except the last which can be any character from ASCII code 32 to 255. Enjoy and please use responsibly. Of course, if someone is foolish enough to believe Excel is a secure medium for storing confidential information anyway, they deserve what&rsquo;s coming to them.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Sub PasswordBreaker() 
 	Dim i As Integer, j As Integer, k As Integer 
 	Dim l As Integer, m As Integer, n As Integer 

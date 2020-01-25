@@ -11,10 +11,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="SAS EG: Filtering a dataset via prompt manager variable"/>
-<meta name="twitter:description" content="Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick."/>
+<meta name="twitter:description" content="Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick."/>
 
     <meta property="og:title" content="SAS EG: Filtering a dataset via prompt manager variable" />
-<meta property="og:description" content="Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick." />
+<meta property="og:description" content="Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/" />
 <meta property="article:published_time" content="2010-11-04T15:55:36+00:00" />
@@ -55,7 +55,7 @@
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.1" />
   </head>
 
   
@@ -131,7 +131,7 @@
       </header>
 
       <div>
-        <p>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user's input. After rubbing a few brain cells together, created a macro that does the trick. It works by embedding a loop inside of a WHERE statement in SQL. If the user selects one value the loop ends and returns that value into the WHERE statement. However, if multiple values are selected, the loop iterates until all values have been returned. There's probably a better way, but at least this works. Here's a quick outline of the variables.</p>
+        <p>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick. It works by embedding a loop inside of a WHERE statement in SQL. If the user selects one value the loop ends and returns that value into the WHERE statement. However, if multiple values are selected, the loop iterates until all values have been returned. There&rsquo;s probably a better way, but at least this works. Here&rsquo;s a quick outline of the variables.</p>
 <p><code>PRODUCTCATEGORY:</code> This is the name of the prompt variable I setup. Replace it with your variable of choice.</p>
 <p><code>IN:</code> Input dataset</p>
 <p><code>OUT:</code> Output dataset <strong>FIELD:</strong> Variable in the dataset on which the filtering is performed.</p>
@@ -151,11 +151,11 @@ QUIT;
 <h3 id="comments">Comments:</h3>
 <h4 id="heading"></h4>
 <p><a href="http://blogs.sas.com/sasdummy" title="chris.hemedinger@sas.com">Chris Hemedinger</a> - <!-- raw HTML omitted -->Nov 2, 2010<!-- raw HTML omitted --></p>
-<p>Jared, You might be able use a built-in EG macro this with code. Suppose your prompt is named Country, and you've supplied a list of countries to include within the prompt selection. Instead of referencing &amp;Country in your code, you would need to use: %_eg_WhereParam( COUNTRY, Country, IN, TYPE=N ) This macro function is supplied by EG 4.2 and should resolve to the proper construct for your program. Your example might turn into: PROC SQL; CREATE TABLE &amp;OUT. AS SELECT * FROM &amp;IN. WHERE %_eg_WhereParam( FIELD, PRODUCTCATEGORY, IN, TYPE=C) ; QUIT; Chris</p>
+<p>Jared, You might be able use a built-in EG macro this with code. Suppose your prompt is named Country, and you&rsquo;ve supplied a list of countries to include within the prompt selection. Instead of referencing &amp;Country in your code, you would need to use: %_eg_WhereParam( COUNTRY, Country, IN, TYPE=N ) This macro function is supplied by EG 4.2 and should resolve to the proper construct for your program. Your example might turn into: PROC SQL; CREATE TABLE &amp;OUT. AS SELECT * FROM &amp;IN. WHERE %_eg_WhereParam( FIELD, PRODUCTCATEGORY, IN, TYPE=C) ; QUIT; Chris</p>
 <!-- raw HTML omitted -->
 <h4 id="heading-1"></h4>
 <p><a href="%22jared@monger.cc%22">Jared</a> - <!-- raw HTML omitted -->Nov 2, 2010<!-- raw HTML omitted --></p>
-<p>Thanks! I wasn't aware that built-in macro existed. Code is much tidier than my original. There's always a better way.</p>
+<p>Thanks! I wasn&rsquo;t aware that built-in macro existed. Code is much tidier than my original. There&rsquo;s always a better way.</p>
 <!-- raw HTML omitted -->
 
       </div>

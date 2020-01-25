@@ -17,7 +17,7 @@
       <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
-      <description>If you&#39;ve followed me for any length of time, you&#39;ll know that I&#39;m a proponent of good data analysis. I was not formally educated as a programmer but I&#39;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+      <description>If you&amp;rsquo;ve followed me for any length of time, you&amp;rsquo;ll know that I&amp;rsquo;m a proponent of good data analysis. I was not formally educated as a programmer but I&amp;rsquo;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
 My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
     </item>
     
@@ -27,8 +27,8 @@ My primary tool for 4 years has been SAS. It is an awesome, easy to learn langua
       <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
-      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&#39;t find any other ideas.</description>
+      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&amp;rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&amp;rsquo;t find any other ideas.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Searched around and couldn&#39;t find any other ideas.</description>
       <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
-      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&#39;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
     </item>
     
     <item>
@@ -83,7 +83,7 @@ To illustrate, here is an example of where a loop might be used.</description>
       <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
-      <description>When individuals outside the profession think of accounting, they don&#39;t often consider its subjective nature. Most people assume there are bright line rules and it&#39;s the CPA&#39;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+      <description>When individuals outside the profession think of accounting, they don&amp;rsquo;t often consider its subjective nature. Most people assume there are bright line rules and it&amp;rsquo;s the CPA&amp;rsquo;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
     </item>
     
   </channel>

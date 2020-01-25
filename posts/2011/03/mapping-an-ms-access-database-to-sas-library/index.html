@@ -11,12 +11,12 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mapping an MS Access Database to SAS Library"/>
-<meta name="twitter:description" content="This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&#39;t find any other ideas."/>
+<meta name="twitter:description" content="This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&rsquo;t find any other ideas."/>
 
     <meta property="og:title" content="Mapping an MS Access Database to SAS Library" />
-<meta property="og:description" content="This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&#39;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&#39;t find any other ideas." />
+<meta property="og:description" content="This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&rsquo;t find any other ideas." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/" />
 <meta property="article:published_time" content="2011-03-26T16:20:41+00:00" />
@@ -57,7 +57,7 @@ Searched around and couldn&#39;t find any other ideas." />
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.63.1" />
   </head>
 
   
@@ -133,8 +133,8 @@ Searched around and couldn&#39;t find any other ideas." />
       </header>
 
       <div>
-        <p>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was <a href="http://en.wikipedia.org/wiki/Open_Database_Connectivity">ODBC</a>. I proceeded to setup the connection, only to find out my company didn't give everyone that ability. Bummer. 15 minutes wasted.</p>
-<p>Searched around and couldn't find any other ideas. Then I thought, I'm going to try to just reference the database directly in the LIBNAME statement and see what happens. It worked. So, this post is to save people who, like myself, usually try to hard way first, only to find their way back to simplicity.</p>
+        <p>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was <a href="http://en.wikipedia.org/wiki/Open_Database_Connectivity">ODBC</a>. I proceeded to setup the connection, only to find out my company didn&rsquo;t give everyone that ability. Bummer. 15 minutes wasted.</p>
+<p>Searched around and couldn&rsquo;t find any other ideas. Then I thought, I&rsquo;m going to try to just reference the database directly in the LIBNAME statement and see what happens. It worked. So, this post is to save people who, like myself, usually try to hard way first, only to find their way back to simplicity.</p>
 <h4 id="example">Example:</h4>
 <p><code>LIBNAME TEST &quot;C:\test\database.accdb&quot;;</code></p>
 <hr>
@@ -145,7 +145,7 @@ Searched around and couldn&#39;t find any other ideas." />
 <!-- raw HTML omitted -->
 <h4 id="heading-1"></h4>
 <p><a href="%22jared@monger.cc%22">Jared</a> - <!-- raw HTML omitted -->Mar 1, 2011<!-- raw HTML omitted --></p>
-<p>Pramod, thanks for your question. I believe you still need the Access engine. I just didn't realize that my company had it, so I was trying to go through ODBC. I don't have much experience with UNIX, but I can recommend some places to ask. There is a Usenet group at <a href="http://groups.google.com/group/comp.soft-sys.sas,">http://groups.google.com/group/comp.soft-sys.sas,</a> which has proven very useful when I have a technical question. The forums at <a href="http://support.sas.com/forums/index.jspa">http://support.sas.com/forums/index.jspa</a> are also very helpful. Good luck!</p>
+<p>Pramod, thanks for your question. I believe you still need the Access engine. I just didn&rsquo;t realize that my company had it, so I was trying to go through ODBC. I don&rsquo;t have much experience with UNIX, but I can recommend some places to ask. There is a Usenet group at <a href="http://groups.google.com/group/comp.soft-sys.sas,">http://groups.google.com/group/comp.soft-sys.sas,</a> which has proven very useful when I have a technical question. The forums at <a href="http://support.sas.com/forums/index.jspa">http://support.sas.com/forums/index.jspa</a> are also very helpful. Good luck!</p>
 <!-- raw HTML omitted -->
 <h4 id="heading-2"></h4>
 <p><a href="http://blogs.sas.com/sasdummy" title="chris.hemedinger@sas.com">Chris Hemedinger</a> - <!-- raw HTML omitted -->Mar 2, 2011<!-- raw HTML omitted --></p>
@@ -157,7 +157,7 @@ Searched around and couldn&#39;t find any other ideas." />
 <!-- raw HTML omitted -->
 <h4 id="heading-4"></h4>
 <p><a href="%22jared@monger.cc%22">Jared</a> - <!-- raw HTML omitted -->Mar 6, 2011<!-- raw HTML omitted --></p>
-<p>Thanks for reading, William. I don't sell any services through this site, but I'm sure the good folks at SAS would love to talk to you.</p>
+<p>Thanks for reading, William. I don&rsquo;t sell any services through this site, but I&rsquo;m sure the good folks at SAS would love to talk to you.</p>
 <!-- raw HTML omitted -->
 
       </div>
