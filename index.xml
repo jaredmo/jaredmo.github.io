@@ -793,17 +793,6 @@ For those that are so inclined, here is my PGP public key.
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://www.jmonger.com/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/projects/</guid>
-      <description>glar  General Ledger Analytics for R - a series of analytics for ERP general ledger data.
- kindness-bot  My attempt at using the Twitter API using tweepy. Kindness Bot searches the Greater Nashville area for uncivil tweets and reminds users to be kind online. There are also modules to auto-reply to new followers, tweet on a schedule, and monitor rate limits.
- tweet-delete  Script for deleting and unfavoriting tweets over 10 days old.</description>
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>https://www.jmonger.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
