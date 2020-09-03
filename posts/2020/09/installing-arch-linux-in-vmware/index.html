@@ -125,12 +125,11 @@
       </header>
 
       <div>
-        <p>During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install <a href="https://www.archlinux.org/">Arch Linux</a> in <a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a> as a learning experience. This blog post is to document the process for future reference. The <a href="https://wiki.archlinux.org/index.php/Installation_guide">installion guide</a> on the <a href="https://wiki.archlinux.org/">Arch Wiki</a> was very helpful as well, so I&rsquo;d be remiss if I didn&rsquo;t include a link. Here goes nothing&hellip;</p>
+        <p>During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install <a href="https://www.archlinux.org/">Arch Linux</a> in <a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a> as a learning experience. This blog post is to document the process for future reference. The <a href="https://wiki.archlinux.org/index.php/Installation_guide">installation guide</a> on the <a href="https://wiki.archlinux.org/">Arch Wiki</a> was very helpful as well, so I&rsquo;d be remiss if I didn&rsquo;t include a link. Here goes nothing&hellip;</p>
 <p>First thing is to create the virtual machine in VMware. I created a 50 GB virtual hard drive, and added this next to the bottom of the *.vmx file so the machine would boot with EFI.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">firmware = &#34;efi&#34;
 </code></pre></div><p>Next <a href="https://www.archlinux.org/download/">download</a> the latest version of Arch and boot from the ISO. You should end up at a command line.</p>
-<p>Verify there are results when the commands below are run. I did my install over a wired connection. If you are doing this on a bare metal laptop with wifi only, additional steps are required first.</p>
-<p>This ensures you have a network connection and EFI is ready to go.</p>
+<p>Verify there are results when you run the commands below. I did my install over a wired connection. If you are doing this with wifi only, additional steps are required. Refer to the Arch install guide.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># ls /sys/firmware/efi/efivars
 # ping google.com
 </code></pre></div><p>If EFI is working and you have a network connection, let&rsquo;s move forward. Next we&rsquo;ll set the date and time&hellip;</p>
@@ -169,8 +168,7 @@
 </code></pre></div><p>Next is setting up the hosts file.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># nano /etc/hosts
 </code></pre></div><p>Add the following text and save.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># Add this to the hosts file
-127.0.0.1	localhost
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">127.0.0.1	localhost
 ::1		localhost
 127.0.1.1	archVM.localdomain	archVM
 </code></pre></div><p>Now we&rsquo;ll set the root account password.</p>
