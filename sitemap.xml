@@ -3,27 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jmonger.com/</loc>
-    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+    <loc>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</loc>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</loc>
-    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+    <loc>https://www.jmonger.com/</loc>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/posts/</loc>
-    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/tags/</loc>
-    <lastmod>2020-01-24T10:28:28-06:00</lastmod>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/tags/tech/</loc>
+    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</loc>
     <lastmod>2020-01-24T10:28:28-06:00</lastmod>
   </url>
   

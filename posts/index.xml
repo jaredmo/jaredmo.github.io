@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jan 2020 10:28:28 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate>
     
 	<atom:link href="https://www.jmonger.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing Arch Linux in VMware Workstation Player</title>
+      <link>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</link>
+      <pubDate>Thu, 03 Sep 2020 09:05:00 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</guid>
+      <description>During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&amp;rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install Arch Linux in VMware Workstation Player as a learning experience. This blog post is to document the process for future reference.</description>
+    </item>
     
     <item>
       <title>Migrating from Wordpress to Hugo</title>
