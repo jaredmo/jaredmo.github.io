@@ -129,7 +129,7 @@
 <p>First thing is to create the virtual machine in VMware. I created a 50 GB virtual hard drive, and added this next to the bottom of the *.vmx file so the machine would boot with EFI.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">firmware = &#34;efi&#34;
 </code></pre></div><p>Next <a href="https://www.archlinux.org/download/">download</a> the latest version of Arch and boot from the ISO. You should end up at a command line.</p>
-<p>Verify there are results when you run the commands below. I did my install over a wired connection. If you are doing this with wifi only, additional steps are required. Refer to the Arch install guide.</p>
+<p>Verify there are results when you run the commands below. I did my install on a host machine with a wired connection. If you are performing a bare metal install on a laptop with Wi-Fi only, additional steps are required. Refer to the Arch install guide.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># ls /sys/firmware/efi/efivars
 # ping google.com
 </code></pre></div><p>If EFI is working and you have a network connection, let&rsquo;s move forward. Next we&rsquo;ll set the date and time&hellip;</p>
