@@ -134,9 +134,9 @@
 # ping google.com
 </code></pre></div><p>If EFI is working and you have a network connection, let&rsquo;s move forward. Next we&rsquo;ll set the date and time&hellip;</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># timedatectl set-ntp true
-</code></pre></div><p>Now we&rsquo;ll partion the disk with <em>cfdisk</em>. Run <em>lsblk</em> to determine your particular drive path first. Mine happened to be <em>/dev/sda</em>.</p>
+</code></pre></div><p>Now we&rsquo;ll partition the disk with <em>cfdisk</em>. Run <em>lsblk</em> to determine your particular drive path first. Mine happened to be <em>/dev/sda</em>.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># cfdisk /dev/sda
-</code></pre></div><p>I allocated 512M to /mnt/boot, 8GB to the swap, everything else to root. Next we&rsquo;ll format the drive.</p>
+</code></pre></div><p>I allocated 512MB to /mnt/boot, 8GB to the swap, everything else to root. Next we&rsquo;ll format the drive.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># mkfs.vfat -F32 /dev/sda1
 # mkswap /dev/sda2
 # swapon /dev/sda2
@@ -154,9 +154,9 @@
 </code></pre></div><p>Next we&rsquo;ll generate and examine the file system.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># genfstab /mnt &gt;&gt; /mnt/etc/fstab
 # nano /mnt/etc/fstab
-</code></pre></div><p>Arch is now installed on the hard drive. Let&rsquo;s login to the new system, and install some packages. I&rsquo;ve included a couple text editors, networking, sudo, boot loader, and the linux-lts kernel. Using this kernel will (hopefully) increase system stability done the road.</p>
+</code></pre></div><p>Arch is now installed on the hard drive. Let&rsquo;s login to the new system, and install some packages. I&rsquo;ve included a couple text editors, networking, sudo, git, grub bootloader, and the linux-lts kernel. Using this kernel will (hopefully) increase system stability down the road.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># arch-chroot /mnt
-# pacman -S dhcpcd efibootmgr grub linux-lts nano sudo vi
+# pacman -S dhcpcd efibootmgr git grub linux-lts nano sudo vi
 </code></pre></div><p>Set the time zone. I happen to be on US Central time.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># ln -sf /usr/share/zoneinfo/America/Chicago /etc/localtime
 # hwclock --systohc
@@ -174,8 +174,7 @@
 </code></pre></div><p>Now we&rsquo;ll set the root account password.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># passwd
 </code></pre></div><p>Install the grub bootloader.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># pacman -S grub efibootmgr
-# grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 # grub-mkconfig -o /boot/grub/grub.cfg
 </code></pre></div><p>&hellip;And enable networking</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># systemctl enable dhcpcd.service
@@ -197,7 +196,7 @@
 # systemctl enable NetworkManager.service
 </code></pre></div><p>Now let&rsquo;s install VMware guest tools as well as some drivers that will help us out. After that finishes issue the <em>reboot</em>.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># pacman -S open-vm-tools
-# pacman -Su xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
+# pacman -S xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
 # systemctl enable vmtoolsd.service
 # systemctl enable vmware-vmblock-fuse.service
 # reboot
