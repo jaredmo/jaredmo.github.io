@@ -147,7 +147,7 @@
 # mount /dev/sda1 /mnt/boot
 # mount /dev/sda3 /mnt
 </code></pre></div><p>Before going forward let&rsquo;s check our work by running <em>lsblk</em>. Once you are happy with the drive move forward.</p>
-<p>Now we&rsquo;ll recreate the <em>mirrorlist</em> file based on download speed. This will rate and sort the 10 most recently syncronized mirrors by download speed, then overwrite <em>/etc/pacman.d/mirrorlist</em>.</p>
+<p>Now we&rsquo;ll recreate the <em>mirrorlist</em> file based on download speed. This will rate and sort the 10 most recently synchronized mirrors by download speed, then overwrite <em>/etc/pacman.d/mirrorlist</em>.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 </code></pre></div><p>Now the moment of truth. Let&rsquo;s install Arch.</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback"># pacstrap /mnt base linux linux-firmware
