@@ -6,11 +6,7 @@
     <description>Recent content in Tags on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate><atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
       <link>https://www.jmonger.com/tags/tech/</link>
@@ -138,83 +134,11 @@
     </item>
     
     <item>
-      <title>Dashboard</title>
-      <link>https://www.jmonger.com/tags/dashboard/</link>
-      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/dashboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Email</title>
-      <link>https://www.jmonger.com/tags/email/</link>
-      <pubDate>Thu, 10 Mar 2011 16:45:57 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>https://www.jmonger.com/tags/education/</link>
-      <pubDate>Mon, 07 Mar 2011 14:28:07 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Financial Reporting</title>
-      <link>https://www.jmonger.com/tags/financial-reporting/</link>
-      <pubDate>Mon, 07 Mar 2011 14:28:07 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/financial-reporting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quotes</title>
-      <link>https://www.jmonger.com/tags/quotes/</link>
-      <pubDate>Fri, 18 Feb 2011 16:09:59 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/quotes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tax</title>
-      <link>https://www.jmonger.com/tags/tax/</link>
-      <pubDate>Wed, 15 Dec 2010 21:07:37 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/tax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Featured</title>
       <link>https://www.jmonger.com/tags/featured/</link>
       <pubDate>Tue, 07 Dec 2010 17:29:11 +0000</pubDate>
       
       <guid>https://www.jmonger.com/tags/featured/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PCAOB</title>
-      <link>https://www.jmonger.com/tags/pcaob/</link>
-      <pubDate>Sun, 27 Jun 2010 20:40:40 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/pcaob/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SOX</title>
-      <link>https://www.jmonger.com/tags/sox/</link>
-      <pubDate>Sun, 27 Jun 2010 20:40:40 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/sox/</guid>
       <description></description>
     </item>
     
@@ -237,29 +161,11 @@
     </item>
     
     <item>
-      <title>PBS</title>
-      <link>https://www.jmonger.com/tags/pbs/</link>
-      <pubDate>Thu, 17 Dec 2009 14:28:24 +0000</pubDate>
+      <title>Financial Reporting</title>
+      <link>https://www.jmonger.com/tags/financial-reporting/</link>
+      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
       
-      <guid>https://www.jmonger.com/tags/pbs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enron</title>
-      <link>https://www.jmonger.com/tags/enron/</link>
-      <pubDate>Wed, 19 Dec 2007 17:51:19 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/enron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>XBRL</title>
-      <link>https://www.jmonger.com/tags/xbrl/</link>
-      <pubDate>Wed, 19 Dec 2007 16:52:47 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/xbrl/</guid>
+      <guid>https://www.jmonger.com/tags/financial-reporting/</guid>
       <description></description>
     </item>
     

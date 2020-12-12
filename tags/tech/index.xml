@@ -6,11 +6,7 @@
     <description>Recent content in Tech on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate><atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Arch Linux in VMware Workstation Player</title>
       <link>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</link>
@@ -59,79 +55,12 @@ My primary tool for 4 years has been SAS. It is an awesome, easy to learn langua
     </item>
     
     <item>
-      <title>Mapping an MS Access Database to SAS Library</title>
-      <link>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</link>
-      <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
-      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&amp;rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
-Searched around and couldn&amp;rsquo;t find any other ideas.</description>
-    </item>
-    
-    <item>
-      <title>JoA: Dashboard Your Scorecard</title>
-      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
-      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
-      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
-    </item>
-    
-    <item>
-      <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
-      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
-      <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
-      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.</description>
-    </item>
-    
-    <item>
-      <title>GigaOM: Get Business Intelligence Ready for the Real-Time Web</title>
-      <link>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</link>
-      <pubDate>Sat, 04 Dec 2010 21:56:05 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</guid>
-      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&amp;rsquo;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
- The future of BI 2.0 will not rely on server power, but on the human power of the entire organization to capture everything, convert social media into tangible business objects, and automate real-time business processes.</description>
-    </item>
-    
-    <item>
-      <title>xkcd: SQL Injection Comic</title>
-      <link>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</link>
-      <pubDate>Fri, 05 Nov 2010 13:54:02 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</guid>
-      <description>I love xkcd. This is old, but I&amp;rsquo;m slow on the uptake. I also love that a comic spawned a website on how to prevent SQL injection attacks.</description>
-    </item>
-    
-    <item>
       <title>SAS EG: Filtering a dataset via prompt manager variable</title>
       <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
       <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
       <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
-    </item>
-    
-    <item>
-      <title>Crypto and Backdoors</title>
-      <link>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</link>
-      <pubDate>Tue, 05 Oct 2010 01:14:12 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</guid>
-      <description>Steve Gibson and Leo Laporte did a great podcast this week regarding the Obama administration&amp;rsquo;s proposed crypto-backdoor legislation. This is same issue Schneier discussed in his post from last week. Here are my takeaways.
- The technology for strong encryption already exists. It&amp;rsquo;s math. Bad guys will still use it. Backdoor mandates will only hurt law abiding citizens. If this passes as requested by law enforcement, secure peer-to-peer communication would become illegal and the systems that support it subject to redesign.</description>
-    </item>
-    
-    <item>
-      <title>Bruce Schneier on Wiretapping the Internet</title>
-      <link>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</link>
-      <pubDate>Thu, 30 Sep 2010 14:21:10 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</guid>
-      <description>For those who&amp;rsquo;ve never heard of him Bruce Schneier is a cryptography expert (notably created the Blowfish block cipher and Solitaire stream cipher). He authors a good blog on info security issues and recently had a post about Obama&amp;rsquo;s internet wiretapping proposal. This is a bad idea for all sorts of reasons and Schneier does a good job outlining the risks. CPAs, especially those in IT audit functions, should pay attention to how this issue progresses as this could have substantial compliance ramifications for clients in all industries.</description>
     </item>
     
     <item>
@@ -151,16 +80,6 @@ I had customer level data for all our locations which included geolocation infor
       
       <guid>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</guid>
       <description>These days everyone is calling themselves a geek. Somewhere along the way, it became a fashionable term. With the rise of the mobile web and modern day social networking, everyone, it seems, is into technology. Welcome newcomers. It was not always so. Geeks have been around looooong before it was fashionable. In fact, I was a geek before the average man even knew what the internet was. The world wide web was only used by institutions.</description>
-    </item>
-    
-    <item>
-      <title>Web Browsing via Linux: Prudent or Paranoid</title>
-      <link>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</link>
-      <pubDate>Wed, 04 Aug 2010 18:44:46 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</guid>
-      <description>Last week, I was listening to a podcast called Security Now! (which you should check out by the way). Steve Gibson, the host, mentioned a recently discovered Windows vulnerability that has been present in the OS going back 10+ years. Needless to say this was a little concerning that a vulnerability could exist for so long without being noticed, much less patched.
-Microsoft has since rolled out a patch that plugs the hole, but the question remains, &amp;ldquo;Should I be surfing the web in the same OS I use to manage my finances and other sensitive info?</description>
     </item>
     
     <item>
