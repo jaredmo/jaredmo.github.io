@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Migrating from Wordpress to Hugo</title>
-      <link>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</link>
-      <pubDate>Fri, 24 Jan 2020 10:28:28 -0600</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</guid>
-      <description>For around 6 years, I ran a Wordpress site called Numbermonger that focused on accounting and technology. The site averaged a few thousand visitors a month - mostly SAS programmers and other technology-minded accountants. Wordpress had a number of features that I enjoyed using, but I eventually came to the conclusion that it was overkill for my needs. Work and personal life also became busier, and my appetite to sit down and write dried up.</description>
-    </item>
-    
-    <item>
       <title>Excel Pull Function</title>
       <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
