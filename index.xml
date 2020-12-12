@@ -26,109 +26,13 @@
     </item>
     
     <item>
-      <title>Some Thoughts on the Affordable Care Act</title>
-      <link>https://www.jmonger.com/posts/2013/12/some-thoughts-on-the-affordable-care-act/</link>
-      <pubDate>Sun, 29 Dec 2013 21:56:18 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2013/12/some-thoughts-on-the-affordable-care-act/</guid>
-      <description>(This post is my opinion only and in no way constitutes the views of my employer or clients. It&amp;rsquo;s also written with an assumption the goal of a healthcare system is to provide quality care at the lowest price possible without disincentivizing providers. If you don&amp;rsquo;t start there, the rest doesn&amp;rsquo;t matter.)
-Price elasticity of demand Let&amp;rsquo;s go back to Economics 101. One of the foundational concepts of that class is price elasticity of demand.</description>
-    </item>
-    
-    <item>
-      <title>Can You Teach Ethics?</title>
-      <link>https://www.jmonger.com/posts/2012/11/can-you-teach-ethics/</link>
-      <pubDate>Sun, 18 Nov 2012 20:37:32 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2012/11/can-you-teach-ethics/</guid>
-      <description>CPAs across the country are required to sit through various amounts of ethics training every two years. I sat thought mine on Friday. Inevitably during these sessions, the question comes up, &amp;ldquo;Can ethics be taught?&amp;rdquo; My own answer to this question has fluctuated since it was first posed to me as a graduate student. Could more effective ethics training have prevented the major accounting failures of the last 10 years? I am, by nature and temperament, a realist.</description>
-    </item>
-    
-    <item>
-      <title>Everybody Stay Calm</title>
-      <link>https://www.jmonger.com/posts/2012/11/everybody-stay-calm/</link>
-      <pubDate>Sun, 04 Nov 2012 14:21:10 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2012/11/everybody-stay-calm/</guid>
-      <description>You may have noticed the blog posts have been in short supply since last year. Well, frankly, it&amp;rsquo;s because I&amp;rsquo;ve been a lot busier and the nature of my work has changed significantly. Instead of spending hours debugging code and writing the perfect formula in Excel, I&amp;rsquo;m now delegating responsibilities and managing people. This has been an exciting and different world for me. As far as my plans for this blog, I&amp;rsquo;m still going to post the odd technical tip as projects come up, but I may shift some focus to current accounting news and people management since that&amp;rsquo;s where I am spending my time these days.</description>
-    </item>
-    
-    <item>
-      <title>Stanford International Bank Fraud Conviction: 110 Year Prison Sentence</title>
-      <link>https://www.jmonger.com/posts/2012/09/stanford-international-bank-fraud-conviction-110-year-prison-sentence/</link>
-      <pubDate>Mon, 24 Sep 2012 19:57:07 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2012/09/stanford-international-bank-fraud-conviction-110-year-prison-sentence/</guid>
-      <description>Two years ago, I wrote a long post about the Stanford International Bank Fraud.
-I recently thought about the story and realized I never followed up to see what happened. After a quick Google search, I was pleased to see that Allen Stanford was convicted and sentenced to 110 years in prison.
-The most amazing part is even after his conviction Stanford still claims he wasn&amp;rsquo;t running a Ponzi scheme and the government is responsible for his victims&#39; losses.</description>
-    </item>
-    
-    <item>
-      <title>Excel &#34;Pull&#34; Function: Creating dynamic links to closed workbooks</title>
+      <title>Excel Pull Function</title>
       <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
       <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
       <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
 One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
-    </item>
-    
-    <item>
-      <title>The Problem With College</title>
-      <link>https://www.jmonger.com/posts/2011/10/the-problem-with-college/</link>
-      <pubDate>Sun, 30 Oct 2011 19:51:37 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/10/the-problem-with-college/</guid>
-      <description>Much of the discussion surrounding the Occupy Wall Street protest movement has turned towards the rising costs of higher education. This is likely because many of the protesters are young, college educated and saddled with enormous federal debt. The Los Angeles Times had a piece this weekend discussing the issue. It was good article, but I&amp;rsquo;ve noticed something missing in all the coverage. Something that colleges, students and even parents don&amp;rsquo;t seem to want to talk about.</description>
-    </item>
-    
-    <item>
-      <title>The Tulip Bubble of 1636</title>
-      <link>https://www.jmonger.com/posts/2011/09/the-tulip-bubble-of-1636/</link>
-      <pubDate>Sun, 18 Sep 2011 18:19:52 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/09/the-tulip-bubble-of-1636/</guid>
-      <description>With all the news coverage on the recent &amp;ldquo;Great Recession&amp;rdquo;, you might think bursts of speculation and the subsequent collapse in prices are unique to the modern age. They&amp;rsquo;re not.
-During the latter half of 1636 Tulip prices in Holland skyrocketed. By the peak of the bubble in February 1637, a single tulip bulb was selling for more than the average laborer made in an entire year. There was a strong belief that tulip prices would only continue to rise.</description>
-    </item>
-    
-    <item>
-      <title>The Batman Equation</title>
-      <link>https://www.jmonger.com/posts/2011/08/the-batman-equation/</link>
-      <pubDate>Sun, 21 Aug 2011 21:41:40 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/08/the-batman-equation/</guid>
-      <description>There is a geometric equation going around the internet that supposedly generates the Batman symbol. Best I can tell, it started at this site, and blew up from there. A user at Stack Exchange took it upon himself to test whether it worked. He mapped out the various functions and looks like it does. Pretty cool.</description>
-    </item>
-    
-    <item>
-      <title>Sino-Forest, Short Sellers Allege Ponzi Scheme</title>
-      <link>https://www.jmonger.com/posts/2011/06/sino-forest-short-sellers-allege-ponzi-scheme/</link>
-      <pubDate>Tue, 07 Jun 2011 18:42:31 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/06/sino-forest-short-sellers-allege-ponzi-scheme/</guid>
-      <description>There is an interesting alleged accounting fraud unfolding in China. Sino-Forest Corporation, a Chinese company in the business of selling timber, has been accused by short sellers of being a massive Ponzi scheme. Like Enron, they seem to be running their business through a complex system of subsidiaries in order to obfuscate transactions. One of the funnier quotes from the short sellers&#39; report is below:
- Despite TRE’s opacity on the revenue side, we have overwhelming evidence that the $231.</description>
-    </item>
-    
-    <item>
-      <title>R for SAS and SPSS Users, A Review</title>
-      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
-      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
-      <description>If you&amp;rsquo;ve followed me for any length of time, you&amp;rsquo;ll know that I&amp;rsquo;m a proponent of good data analysis. I was not formally educated as a programmer but I&amp;rsquo;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
-My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
-    </item>
-    
-    <item>
-      <title>Bitcoin: A Money Launderer&#39;s Dream Come True</title>
-      <link>https://www.jmonger.com/posts/2011/05/bitcoin-a-money-launderers-dream-come-true/</link>
-      <pubDate>Mon, 16 May 2011 17:41:51 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2011/05/bitcoin-a-money-launderers-dream-come-true/</guid>
-      <description>I first heard about Bitcoin when Steve Gibson did a podcast on it a few months ago. Essentially, it&amp;rsquo;s a medium of exchange just like any other currency. The major differences are 1. &amp;ldquo;coins&amp;rdquo; are simply bits in the system with no physical reality (actually, most of the US money supply has no physical reality either, but that&amp;rsquo;s a post for another day), 2. transfers can&amp;rsquo;t be traced, and 3. there is little to no transaction cost.</description>
     </item>
     
     <item>
@@ -151,97 +55,12 @@ He had some great accounting textbooks from his MBA at University of Chicago in 
     </item>
     
     <item>
-      <title>Should Accountants Be Required to Code</title>
-      <link>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</link>
-      <pubDate>Tue, 07 Dec 2010 17:29:11 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</guid>
-      <description>Sometimes, I wonder where I fit on the career spectrum. I am trained as a CPA and 90% of my daily work involves accounting in some form. However, I am also a programmer who geeks out when I find a new way to automate processes or transform data into knowledge. My boss made a comment a few weeks ago in a meeting, “If you want to get Jared excited, ask him about two things: 1) His family or 2) SAS.</description>
-    </item>
-    
-    <item>
-      <title>SAS EG: Filtering a dataset via prompt manager variable</title>
+      <title>SAS EG: Filtering a Dataset via Prompt Manager Variable</title>
       <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
       <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
       
       <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
       <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
-    </item>
-    
-    <item>
-      <title>Stanford International Bank Fraud</title>
-      <link>https://www.jmonger.com/posts/2010/10/stanford-international-bank-sib-fraud/</link>
-      <pubDate>Tue, 12 Oct 2010 12:15:22 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/10/stanford-international-bank-sib-fraud/</guid>
-      <description>While Bernie Madoff was busy having his face shown all over the news last year, a smaller but equally devastating Ponzi scheme was discovered by federal authorities: Standford International Bank (&amp;ldquo;SIB&amp;rdquo;). Because of the dollars involved in Madoff&amp;rsquo;s scam ($65 billion), the Stanford fraud ($7.2 billion) didn&amp;rsquo;t get much press coverage. However, for the victims of this fraud, the outcome may be worse.
-Stanford International Bank was started in 1986 by Allen Stanford.</description>
-    </item>
-    
-    <item>
-      <title>Darth JEDAR</title>
-      <link>https://www.jmonger.com/posts/2010/10/darth-jedar/</link>
-      <pubDate>Sun, 10 Oct 2010 23:15:44 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/10/darth-jedar/</guid>
-      <description>I found this picture in a pile of papers under my stairs and it reminded me of a fun memory so I thought I would share. While working at D&amp;amp;T, I was stationed for the better part of a year on one large client. During that period, I spent more time with those people than I did with my wife. We got to know each other well, and as would be expected with long hours and tough deadlines, some nicknames emerged.</description>
-    </item>
-    
-    <item>
-      <title>How Google Fusion Tables Helped Me Look Awesome</title>
-      <link>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</link>
-      <pubDate>Mon, 23 Aug 2010 14:51:07 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</guid>
-      <description>Last Monday I came into work to find a surprise: a memo seeking clarification of a business decision we had made in opening a new location. Lots of issues were wrapped up in the questions this memo raised, but the bottom line was I needed to prove this new location would not hurt sales at an existing location where the company has a large stake.
-I had customer level data for all our locations which included geolocation information (city, state, zip code, etc.</description>
-    </item>
-    
-    <item>
-      <title>Nowadays, Everyone Is a Geek</title>
-      <link>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</link>
-      <pubDate>Thu, 12 Aug 2010 16:15:18 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</guid>
-      <description>These days everyone is calling themselves a geek. Somewhere along the way, it became a fashionable term. With the rise of the mobile web and modern day social networking, everyone, it seems, is into technology. Welcome newcomers. It was not always so. Geeks have been around looooong before it was fashionable. In fact, I was a geek before the average man even knew what the internet was. The world wide web was only used by institutions.</description>
-    </item>
-    
-    <item>
-      <title>The Art of Managing Well</title>
-      <link>https://www.jmonger.com/posts/2010/06/the-art-of-managing-well/</link>
-      <pubDate>Tue, 29 Jun 2010 17:29:47 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/06/the-art-of-managing-well/</guid>
-      <description>&amp;ldquo;I believe managing is like holding a dove in your hand. If you hold it too tightly you kill it, but if you hold it too loosely, you lose it.&amp;rdquo; -Tommy Lasorda
-There is an art to managing well. I&amp;rsquo;ll be the first to admit I am still learning. As I have been given positions of leadership, one of the things I&amp;rsquo;ve tried to do is look back on leaders I admire for traits to emulate.</description>
-    </item>
-    
-    <item>
-      <title>Access VBA: Starting from Ground Zero</title>
-      <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
-      <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
-      <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
-    </item>
-    
-    <item>
-      <title>DO Loops: Part Deux (It&#39;s a pun. Get it?)</title>
-      <link>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</link>
-      <pubDate>Fri, 11 Dec 2009 18:34:04 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</guid>
-      <description>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date.</description>
-    </item>
-    
-    <item>
-      <title>DO Loops: Useful Tool in SAS User&#39;s Toolbox</title>
-      <link>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</link>
-      <pubDate>Wed, 09 Dec 2009 15:21:29 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</guid>
-      <description>DO Loops in SAS are outside the scope of what most beginning users feel comfortable tackling. However, they are a powerful, time-saving tool in the report writer’s toolbox. For those unfamiliar with programming, loops are a set of instructions that the programmer tells the computer to repeat until predefined condition(s) are true. It’s a simple concept but powerful in execution.
-To illustrate, here is an example of where a loop might be used.</description>
     </item>
     
     <item>
@@ -254,7 +73,7 @@ To illustrate, here is an example of where a loop might be used.</description>
     </item>
     
     <item>
-      <title>Excel &#34;Protect Sheet&#34; Hack</title>
+      <title>Excel Protect Sheet Hack</title>
       <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
       <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
       
