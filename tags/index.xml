@@ -6,69 +6,9 @@
     <description>Recent content in Tags on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate><atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tech</title>
-      <link>https://www.jmonger.com/tags/tech/</link>
-      <pubDate>Thu, 03 Sep 2020 09:05:00 -0600</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/tech/</guid>
-      <description></description>
-    </item>
     
-    <item>
-      <title>Excel</title>
-      <link>https://www.jmonger.com/tags/excel/</link>
-      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/excel/</guid>
-      <description></description>
-    </item>
+	<atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>Fun</title>
-      <link>https://www.jmonger.com/tags/fun/</link>
-      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VBA</title>
-      <link>https://www.jmonger.com/tags/vba/</link>
-      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/vba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SAS</title>
-      <link>https://www.jmonger.com/tags/sas/</link>
-      <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/sas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Featured</title>
-      <link>https://www.jmonger.com/tags/featured/</link>
-      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/featured/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Financial Reporting</title>
-      <link>https://www.jmonger.com/tags/financial-reporting/</link>
-      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
-      
-      <guid>https://www.jmonger.com/tags/financial-reporting/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

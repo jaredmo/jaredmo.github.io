@@ -3,91 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</loc>
-    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/</loc>
-    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/</loc>
-    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/</loc>
-    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/tech/</loc>
-    <lastmod>2020-09-03T09:05:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/excel/</loc>
-    <lastmod>2012-02-11T21:37:31+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</loc>
-    <lastmod>2012-02-11T21:37:31+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</loc>
-    <lastmod>2011-03-31T19:49:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/fun/</loc>
-    <lastmod>2011-03-31T19:49:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/vba/</loc>
-    <lastmod>2011-03-31T19:49:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2011/02/my-grandfathers-books/</loc>
-    <lastmod>2011-02-13T19:14:41+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/sas/</loc>
-    <lastmod>2010-11-04T15:55:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</loc>
-    <lastmod>2010-11-04T15:55:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</loc>
-    <lastmod>2009-11-28T19:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/featured/</loc>
-    <lastmod>2009-11-28T19:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/tags/financial-reporting/</loc>
-    <lastmod>2009-11-28T19:13:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</loc>
-    <lastmod>2009-02-07T15:45:17+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jmonger.com/about/</loc>
   </url>
   
@@ -100,11 +15,19 @@
   </url>
   
   <url>
+    <loc>https://www.jmonger.com/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.jmonger.com/resume/</loc>
   </url>
   
   <url>
     <loc>https://www.jmonger.com/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.jmonger.com/tags/</loc>
   </url>
   
 </urlset>
