@@ -5,19 +5,15 @@
     <link>https://www.jmonger.com/</link>
     <description>Recent content on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://www.jmonger.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://www.jmonger.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://www.jmonger.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.jmonger.com/about/</guid>
-      <description>I am a Certified Public Accountant and SQL developer from Nashville, TN. My current role is Senior Director of Financial Services at AMSURG where I work on healthcare revenue recognition, acquisition integration, budgeting, and building internal web applications. I am an experienced people manager and enjoy training on the intersection of accounting, finance, and technology.
-I have deep experience with a variety of database and reporting platforms including Microsoft SQL Server, Azure SQL, SQL Server Reporting Services, IBM Cognos TM1, Tableau, Base SAS, and Business Objects.</description>
+      <description>I am a Certified Public Accountant and financial systems administrator from Nashville, TN. My current role is Head of Financial Business Systems at Lyra Health. I am an experienced people manager, and enjoy training on the intersection of accounting and technology.
+I have deep experience with a variety of applications, databases, and reporting platforms including Microsoft SQL Server, SQL Server Reporting Services, SmartStream, Oracle NetSuite, PostgreSQL, IBM Cognos, Tableau, Base SAS, and Business Objects.</description>
     </item>
     
     <item>
@@ -38,8 +34,9 @@ For those that are so inclined, here is my PGP public key.
       
       <guid>https://www.jmonger.com/resume/</guid>
       <description>Specialties Preparation of financial statements and executive reporting packages • Leading and coaching high performing teams • Budgeting and forecasting • Business combination accounting • Healthcare accounting • Data analysis and report creation • Building predictive analytical models • Leveraging technological infrastructure to drive efficiencies and profitability
-Experience AmSurg Corp
-Senior Director of Financial Services, 4/18 – present
+Experience Lyra Health Head of Financial Business Systems, 5/21 - present
+AmSurg Corp
+Senior Director of Financial Services, 4/18 – 5/21
  Create scheduled and ad-hoc reports for upper management and key decision makers.</description>
     </item>
     

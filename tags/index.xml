@@ -5,10 +5,6 @@
     <link>https://www.jmonger.com/tags/</link>
     <description>Recent content in Tags on Jared Monger</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://www.jmonger.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
