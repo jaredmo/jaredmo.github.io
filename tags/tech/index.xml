@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/tech/</link>
+    <description>Recent content in Tech on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Sep 2020 09:05:00 -0600</lastBuildDate><atom:link href="https://www.jmonger.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Arch Linux in VMware Workstation Player</title>
+      <link>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</link>
+      <pubDate>Thu, 03 Sep 2020 09:05:00 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/</guid>
+      <description>During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&amp;rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install Arch Linux in VMware Workstation Player as a learning experience. This blog post is to document the process for future reference.</description>
+    </item>
+    
+    <item>
+      <title>Migrating from Wordpress to Hugo</title>
+      <link>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</link>
+      <pubDate>Fri, 24 Jan 2020 10:28:28 -0600</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2020/01/migrating-from-wordpress-to-hugo/</guid>
+      <description>For around 6 years, I ran a Wordpress site called Numbermonger that focused on accounting and technology. The site averaged a few thousand visitors a month - mostly SAS programmers and other technology-minded accountants. Wordpress had a number of features that I enjoyed using, but I eventually came to the conclusion that it was overkill for my needs. Work and personal life also became busier, and my appetite to sit down and write dried up.</description>
+    </item>
+    
+    <item>
+      <title>Excel Pull Function</title>
+      <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
+One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
+    </item>
+    
+    <item>
+      <title>R for SAS and SPSS Users, A Review</title>
+      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
+      <description>If you&amp;rsquo;ve followed me for any length of time, you&amp;rsquo;ll know that I&amp;rsquo;m a proponent of good data analysis. I was not formally educated as a programmer but I&amp;rsquo;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
+    </item>
+    
+    <item>
+      <title>April Fools Is Better With Visual Basic</title>
+      <link>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</link>
+      <pubDate>Thu, 31 Mar 2011 19:49:08 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/</guid>
+      <description>Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&amp;rsquo;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&amp;rsquo;t familiar with Visual Basic for Applications (&amp;ldquo;VBA&amp;rdquo;), it&amp;rsquo;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis.</description>
+    </item>
+    
+    <item>
+      <title>Mapping an MS Access Database to SAS Library</title>
+      <link>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</link>
+      <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
+      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&amp;rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&amp;rsquo;t find any other ideas.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Dashboard Your Scorecard</title>
+      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
+      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
+      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
+    </item>
+    
+    <item>
+      <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
+      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
+      <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
+      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.</description>
+    </item>
+    
+    <item>
+      <title>GigaOM: Get Business Intelligence Ready for the Real-Time Web</title>
+      <link>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</link>
+      <pubDate>Sat, 04 Dec 2010 21:56:05 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/12/gigaom-get-business-intelligence-ready-for-the-real-time-web/</guid>
+      <description>GigaOM had a good article this morning called Get Business Intelligence Ready for the Real-Time Web. Here&amp;rsquo;s what they say BI 2.0 should look like. Not sure the tools exist yet to accomplish, but I can see things moving in this direction. Well designed dashboards do some of this already.
+The future of BI 2.0 will not rely on server power, but on the human power of the entire organization to capture everything, convert social media into tangible business objects, and automate real-time business processes.</description>
+    </item>
+    
+    <item>
+      <title>xkcd: SQL Injection Comic</title>
+      <link>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</link>
+      <pubDate>Fri, 05 Nov 2010 13:54:02 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/xkcd-sql-injection-comic/</guid>
+      <description>I love xkcd. This is old, but I&amp;rsquo;m slow on the uptake. I also love that a comic spawned a website on how to prevent SQL injection attacks.</description>
+    </item>
+    
+    <item>
+      <title>SAS EG: Filtering a Dataset via Prompt Manager Variable</title>
+      <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
+      <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
+      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+    </item>
+    
+    <item>
+      <title>Crypto and Backdoors</title>
+      <link>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</link>
+      <pubDate>Tue, 05 Oct 2010 01:14:12 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/10/crypto-and-backdoors/</guid>
+      <description>Steve Gibson and Leo Laporte did a great podcast this week regarding the Obama administration&amp;rsquo;s proposed crypto-backdoor legislation. This is same issue Schneier discussed in his post from last week. Here are my takeaways.
+The technology for strong encryption already exists. It&amp;rsquo;s math. Bad guys will still use it. Backdoor mandates will only hurt law abiding citizens. If this passes as requested by law enforcement, secure peer-to-peer communication would become illegal and the systems that support it subject to redesign.</description>
+    </item>
+    
+    <item>
+      <title>Bruce Schneier on Wiretapping the Internet</title>
+      <link>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</link>
+      <pubDate>Thu, 30 Sep 2010 14:21:10 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/09/bruce-schneier-on-wiretapping-the-internet/</guid>
+      <description>For those who&amp;rsquo;ve never heard of him Bruce Schneier is a cryptography expert (notably created the Blowfish block cipher and Solitaire stream cipher). He authors a good blog on info security issues and recently had a post about Obama&amp;rsquo;s internet wiretapping proposal. This is a bad idea for all sorts of reasons and Schneier does a good job outlining the risks. CPAs, especially those in IT audit functions, should pay attention to how this issue progresses as this could have substantial compliance ramifications for clients in all industries.</description>
+    </item>
+    
+    <item>
+      <title>How Google Fusion Tables Helped Me Look Awesome</title>
+      <link>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</link>
+      <pubDate>Mon, 23 Aug 2010 14:51:07 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/how-google-fusion-tables-helped-me-look-awesome/</guid>
+      <description>Last Monday I came into work to find a surprise: a memo seeking clarification of a business decision we had made in opening a new location. Lots of issues were wrapped up in the questions this memo raised, but the bottom line was I needed to prove this new location would not hurt sales at an existing location where the company has a large stake.
+I had customer level data for all our locations which included geolocation information (city, state, zip code, etc.</description>
+    </item>
+    
+    <item>
+      <title>Nowadays, Everyone Is a Geek</title>
+      <link>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</link>
+      <pubDate>Thu, 12 Aug 2010 16:15:18 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/nowadays-everyone-is-a-geek/</guid>
+      <description>These days everyone is calling themselves a geek. Somewhere along the way, it became a fashionable term. With the rise of the mobile web and modern day social networking, everyone, it seems, is into technology. Welcome newcomers. It was not always so. Geeks have been around looooong before it was fashionable. In fact, I was a geek before the average man even knew what the internet was. The world wide web was only used by institutions.</description>
+    </item>
+    
+    <item>
+      <title>Web Browsing via Linux: Prudent or Paranoid</title>
+      <link>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</link>
+      <pubDate>Wed, 04 Aug 2010 18:44:46 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/08/web-browsing-via-linux-prudent-or-paranoid/</guid>
+      <description>Last week, I was listening to a podcast called Security Now! (which you should check out by the way). Steve Gibson, the host, mentioned a recently discovered Windows vulnerability that has been present in the OS going back 10+ years. Needless to say this was a little concerning that a vulnerability could exist for so long without being noticed, much less patched.
+Microsoft has since rolled out a patch that plugs the hole, but the question remains, &amp;ldquo;Should I be surfing the web in the same OS I use to manage my finances and other sensitive info?</description>
+    </item>
+    
+    <item>
+      <title>Access VBA: Starting from Ground Zero</title>
+      <link>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</link>
+      <pubDate>Thu, 18 Mar 2010 13:47:53 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/03/access-vba-starting-from-ground-zero/</guid>
+      <description>Recently, I have been getting out my comfort zone with SAS/SQL and expanding into the world of Visual Basic. For those unfamiliar, Visual Basic for Applications (or VBA) is Microsoft’s language which allows users to customize Microsoft Office. It is especially useful in Access and Excel. A simple example of VBA would be an Excel macro. When a user records a macro, the steps are recorded as VBA code and mapped to a keyboard shortcut.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Part Deux (It&#39;s a pun. Get it?)</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</link>
+      <pubDate>Fri, 11 Dec 2009 18:34:04 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</guid>
+      <description>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Useful Tool in SAS User&#39;s Toolbox</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</link>
+      <pubDate>Wed, 09 Dec 2009 15:21:29 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</guid>
+      <description>DO Loops in SAS are outside the scope of what most beginning users feel comfortable tackling. However, they are a powerful, time-saving tool in the report writer’s toolbox. For those unfamiliar with programming, loops are a set of instructions that the programmer tells the computer to repeat until predefined condition(s) are true. It’s a simple concept but powerful in execution.
+To illustrate, here is an example of where a loop might be used.</description>
+    </item>
+    
+    <item>
+      <title>Actuarial Triangle: Powerful Tool for Accounting Estimates</title>
+      <link>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</link>
+      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
+      <description>When individuals outside the profession think of accounting, they don&amp;rsquo;t often consider its subjective nature. Most people assume there are bright line rules and it&amp;rsquo;s the CPA&amp;rsquo;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+    </item>
+    
+    <item>
+      <title>Excel Protect Sheet Hack</title>
+      <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
+      <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&amp;rsquo;t write the code below, but I am not ashamed to use it.
+The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
+    </item>
+    
+  </channel>
+</rss>

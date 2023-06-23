@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jared Monger">
+    <meta name="description" content="Jared Monger&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Installing Arch Linux in VMware Workstation Player"/>
+<meta name="twitter:description" content="During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install Arch Linux in VMware Workstation Player as a learning experience. This blog post is to document the process for future reference."/>
+
+    <meta property="og:title" content="Installing Arch Linux in VMware Workstation Player" />
+<meta property="og:description" content="During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install Arch Linux in VMware Workstation Player as a learning experience. This blog post is to document the process for future reference." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-09-03T09:05:00-06:00" />
+<meta property="article:modified_time" content="2020-09-03T09:05:00-06:00" />
+
+
+    
+      <base href="https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/">
+    
+    <title>
+  Installing Arch Linux in VMware Workstation Player · Jared Monger
+</title>
+
+    
+      <link rel="canonical" href="https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.112.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://www.jmonger.com/">
+      Jared Monger
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/resume/">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/contact/">Contact</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Installing Arch Linux in VMware Workstation Player</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-09-03T09:05:00-06:00'>
+                September 3, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://www.jmonger.com/tags/tech/">Tech</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install <a href="https://www.archlinux.org/">Arch Linux</a> in <a href="https://www.vmware.com/products/workstation-player.html">VMware Workstation Player</a> as a learning experience. This blog post is to document the process for future reference. The <a href="https://wiki.archlinux.org/index.php/Installation_guide">installation guide</a> on the <a href="https://wiki.archlinux.org/">Arch Wiki</a> was very helpful as well, so I&rsquo;d be remiss if I didn&rsquo;t include a link. Here goes nothing&hellip;</p>
+<p>First thing is to create the virtual machine in VMware. I created a 50 GB virtual hard drive, and added this next to the bottom of the *.vmx file so the machine would boot with EFI.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>firmware = &#34;efi&#34;
+</span></span></code></pre></div><p>Next <a href="https://www.archlinux.org/download/">download</a> the latest version of Arch and boot from the ISO. You should end up at a command line.</p>
+<p>Verify there are results when you run the commands below. I did my install on a host machine with a wired connection. If you are performing a bare metal install on a laptop with Wi-Fi only, additional steps are required. Refer to the Arch install guide.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># ls /sys/firmware/efi/efivars
+</span></span><span style="display:flex;"><span># ping google.com
+</span></span></code></pre></div><p>If EFI is working and you have a network connection, let&rsquo;s move forward. Next we&rsquo;ll set the date and time&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># timedatectl set-ntp true
+</span></span></code></pre></div><p>Now we&rsquo;ll partition the disk with <em>cfdisk</em>. Run <em>lsblk</em> to determine your particular drive path first. Mine happened to be <em>/dev/sda</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># cfdisk /dev/sda
+</span></span></code></pre></div><p>I allocated 512MB to /mnt/boot, 8GB to the swap, everything else to root. Next we&rsquo;ll format the drive.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># mkfs.vfat -F32 /dev/sda1
+</span></span><span style="display:flex;"><span># mkswap /dev/sda2
+</span></span><span style="display:flex;"><span># swapon /dev/sda2
+</span></span><span style="display:flex;"><span># mkfs.ext4 /dev/sda3
+</span></span></code></pre></div><p>Now we&rsquo;ll create the boot and home directories, as well as mount the partitions&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># mkdir /mnt/boot
+</span></span><span style="display:flex;"><span># mkdir /mnt/home
+</span></span><span style="display:flex;"><span># mount /dev/sda1 /mnt/boot
+</span></span><span style="display:flex;"><span># mount /dev/sda3 /mnt
+</span></span></code></pre></div><p>Before going forward let&rsquo;s check our work by running <em>lsblk</em>. Once you are happy with the drive move forward.</p>
+<p>Now we&rsquo;ll recreate the <em>mirrorlist</em> file based on download speed. This will rate and sort the 10 most recently synchronized mirrors by download speed, then overwrite <em>/etc/pacman.d/mirrorlist</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+</span></span></code></pre></div><p>Now the moment of truth. Let&rsquo;s install Arch.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># pacstrap /mnt base linux linux-firmware
+</span></span></code></pre></div><p>Next we&rsquo;ll generate and examine the file system.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># genfstab /mnt &gt;&gt; /mnt/etc/fstab
+</span></span><span style="display:flex;"><span># nano /mnt/etc/fstab
+</span></span></code></pre></div><p>Arch is now installed on the hard drive. Let&rsquo;s login to the new system, and install some packages. I&rsquo;ve included a couple text editors, networking, sudo, git, grub bootloader, and the linux-lts kernel. Using this kernel will (hopefully) increase system stability down the road.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># arch-chroot /mnt
+</span></span><span style="display:flex;"><span># pacman -S dhcpcd efibootmgr git grub linux-lts nano sudo vi
+</span></span></code></pre></div><p>Set the time zone. I happen to be on US Central time.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># ln -sf /usr/share/zoneinfo/America/Chicago /etc/localtime
+</span></span><span style="display:flex;"><span># hwclock --systohc
+</span></span></code></pre></div><p>Now we&rsquo;ll generate the locale, and uncomment <em>en_US.UTF-8 UTF-8</em> in <em>locale.gen</em>, and configure the hostname. Mine is <em>archVM</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># locale-gen
+</span></span><span style="display:flex;"><span># nano /etc/locale.gen # Uncomment en_US.UTF-8 UTF-8
+</span></span><span style="display:flex;"><span># echo &#34;LANG=en_US.UTF-8&#34; &gt;&gt; /etc/locale.conf
+</span></span><span style="display:flex;"><span># echo &#34;archVM&#34; &gt;&gt; /etc/hostname
+</span></span></code></pre></div><p>Next is setting up the hosts file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># nano /etc/hosts
+</span></span></code></pre></div><p>Add the following text and save.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>127.0.0.1	localhost
+</span></span><span style="display:flex;"><span>::1		localhost
+</span></span><span style="display:flex;"><span>127.0.1.1	archVM.localdomain	archVM
+</span></span></code></pre></div><p>Now we&rsquo;ll set the root account password.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># passwd
+</span></span></code></pre></div><p>Install the grub bootloader.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+</span></span><span style="display:flex;"><span># grub-mkconfig -o /boot/grub/grub.cfg
+</span></span></code></pre></div><p>&hellip;And enable networking</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># systemctl enable dhcpcd.service
+</span></span></code></pre></div><p>After all that&rsquo;s done, let&rsquo;s unmount the hard disk, reboot, and cross our fingers. Be sure to unmount the installation ISO at the point.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># exit
+</span></span><span style="display:flex;"><span># umount -R /mnt
+</span></span><span style="display:flex;"><span># reboot
+</span></span></code></pre></div><p>Once the system reboots, you should have a login prompt. Congrats! You&rsquo;ve installed Arch. Everything else from this point forward is icing on the cake.</p>
+<p>I happen to like the <a href="https://kde.org/plasma-desktop">KDE Plasma</a> desktop environment and <a href="https://github.com/Jguer/yay">yay</a> AUR helper. The next steps can be used to get those running, as well as installing VMware&rsquo;s guest tools.</p>
+<p>First let&rsquo;s update Arch and create a non-root user account.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># pacman -Syu
+</span></span><span style="display:flex;"><span># useradd -m [username]
+</span></span><span style="display:flex;"><span># passwd [username]
+</span></span><span style="display:flex;"><span># visudo #Uncomment relevant lines to allow all users to run sudo. Save and quit.
+</span></span></code></pre></div><p>Now we&rsquo;ll install xorg and our desktop environment, as well as enable the login screen and network manager. This will take awhile depending on your network speed&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># pacman -S xorg
+</span></span><span style="display:flex;"><span># pacman -S plasma-meta kde-applications
+</span></span><span style="display:flex;"><span># systemctl enable sddm.service
+</span></span><span style="display:flex;"><span># systemctl enable NetworkManager.service
+</span></span></code></pre></div><p>Now let&rsquo;s install VMware guest tools as well as some drivers that will help us out. After that finishes issue the <em>reboot</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># pacman -S open-vm-tools
+</span></span><span style="display:flex;"><span># pacman -S xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
+</span></span><span style="display:flex;"><span># systemctl enable vmtoolsd.service
+</span></span><span style="display:flex;"><span># systemctl enable vmware-vmblock-fuse.service
+</span></span><span style="display:flex;"><span># reboot
+</span></span></code></pre></div><p>You should now see a login screen for KDE Plasma. It&rsquo;s starting the feel more like a finished system. Let&rsquo;s login with as the newly created non-root user.</p>
+<p>Open up Konsole or whatever terminal you like, now let&rsquo;s install yay. If you don&rsquo;t intend to use the <a href="https://aur.archlinux.org/">AUR</a>, you can stop here.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ cd /opt
+</span></span><span style="display:flex;"><span>$ git clone https://aur.archlinux.org/yay.git
+</span></span><span style="display:flex;"><span>$ sudo chown -R [username]:[username] yay
+</span></span><span style="display:flex;"><span>$ cd yay
+</span></span><span style="display:flex;"><span>$ makepkg -si
+</span></span></code></pre></div><p>Now you can update your entire system just by opening a terminal and issuing the <em>yay</em> command. That feels pretty good!</p>
+<p>I hope this little guide was helpful. I certainly learned a lot in the process, and am glad to have completed the exercise.</p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2007 - 2023
+      
+       Jared Monger 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

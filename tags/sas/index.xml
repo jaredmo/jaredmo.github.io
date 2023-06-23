@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAS on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/sas/</link>
+    <description>Recent content in SAS on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jun 2011 15:08:00 +0000</lastBuildDate><atom:link href="https://www.jmonger.com/tags/sas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R for SAS and SPSS Users, A Review</title>
+      <link>https://www.jmonger.com/posts/2011/06/learning-r/</link>
+      <pubDate>Mon, 06 Jun 2011 15:08:00 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/06/learning-r/</guid>
+      <description>If you&amp;rsquo;ve followed me for any length of time, you&amp;rsquo;ll know that I&amp;rsquo;m a proponent of good data analysis. I was not formally educated as a programmer but I&amp;rsquo;ve found a solid understanding of data manipulation has served me well in my work as an accountant.
+My primary tool for 4 years has been SAS. It is an awesome, easy to learn language that has allowed me to look like a hero on numerous projects.</description>
+    </item>
+    
+    <item>
+      <title>Mapping an MS Access Database to SAS Library</title>
+      <link>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</link>
+      <pubDate>Sat, 26 Mar 2011 16:20:41 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/mapping-an-ms-access-database-to-sas-library/</guid>
+      <description>This post is for people, like myself, who assume things are harder than they usually are. Worked on an analysis yesterday where I needed to map an Access database to a SAS library so I could use the tables in some joins. My first thought was ODBC. I proceeded to setup the connection, only to find out my company didn&amp;rsquo;t give everyone that ability. Bummer. 15 minutes wasted.
+Searched around and couldn&amp;rsquo;t find any other ideas.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Dashboard Your Scorecard</title>
+      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
+      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
+      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
+    </item>
+    
+    <item>
+      <title>Should Accountants Be Required to Code</title>
+      <link>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</link>
+      <pubDate>Tue, 07 Dec 2010 17:29:11 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/12/should-accountants-be-required-to-code/</guid>
+      <description>Sometimes, I wonder where I fit on the career spectrum. I am trained as a CPA and 90% of my daily work involves accounting in some form. However, I am also a programmer who geeks out when I find a new way to automate processes or transform data into knowledge. My boss made a comment a few weeks ago in a meeting, “If you want to get Jared excited, ask him about two things: 1) His family or 2) SAS.</description>
+    </item>
+    
+    <item>
+      <title>SAS EG: Filtering a Dataset via Prompt Manager Variable</title>
+      <link>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</link>
+      <pubDate>Thu, 04 Nov 2010 15:55:36 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2010/11/sas-eg-filtering-a-dataset-via-prompt-manager-variable/</guid>
+      <description>Nobody who reads this blog is likely a SAS programmer. However, on the off chance this would be useful to someone who finds it via Google, I wanted to post. Currently, I am working on a project in SAS Enterprise Guide where I needed to allow the user to provide variable value(s) via prompt manager and then filter the resulting dataset based on the user&amp;rsquo;s input. After rubbing a few brain cells together, created a macro that does the trick.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Part Deux (It&#39;s a pun. Get it?)</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</link>
+      <pubDate>Fri, 11 Dec 2009 18:34:04 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-part-deux/</guid>
+      <description>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date.</description>
+    </item>
+    
+    <item>
+      <title>DO Loops: Useful Tool in SAS User&#39;s Toolbox</title>
+      <link>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</link>
+      <pubDate>Wed, 09 Dec 2009 15:21:29 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/12/do-loops-a-powerful-tool-in-sas-users-toolbox/</guid>
+      <description>DO Loops in SAS are outside the scope of what most beginning users feel comfortable tackling. However, they are a powerful, time-saving tool in the report writer’s toolbox. For those unfamiliar with programming, loops are a set of instructions that the programmer tells the computer to repeat until predefined condition(s) are true. It’s a simple concept but powerful in execution.
+To illustrate, here is an example of where a loop might be used.</description>
+    </item>
+    
+    <item>
+      <title>Actuarial Triangle: Powerful Tool for Accounting Estimates</title>
+      <link>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</link>
+      <pubDate>Sat, 28 Nov 2009 19:13:22 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/11/actuarial-triangle-powerful-tool-for-accounting-estimates/</guid>
+      <description>When individuals outside the profession think of accounting, they don&amp;rsquo;t often consider its subjective nature. Most people assume there are bright line rules and it&amp;rsquo;s the CPA&amp;rsquo;s job to make sure the rules are adhered to. In some instances, there is exact guidance (which makes our lives easier), but in many others CPAs are required to make estimates. Estimates being a nice way of saying, &amp;ldquo;Mr. CPA, please attempt to predict the future.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jared Monger">
+    <meta name="description" content="Jared Monger&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="DO Loops: Part Deux (It&#39;s a pun. Get it?)"/>
+<meta name="twitter:description" content="For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date."/>
+
+    <meta property="og:title" content="DO Loops: Part Deux (It&#39;s a pun. Get it?)" />
+<meta property="og:description" content="For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing YTD Quantity Sold by Product by Date." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.jmonger.com/posts/2009/12/do-loops-part-deux/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2009-12-11T18:34:04+00:00" />
+<meta property="article:modified_time" content="2009-12-11T18:34:04+00:00" />
+
+
+    
+      <base href="https://www.jmonger.com/posts/2009/12/do-loops-part-deux/">
+    
+    <title>
+  DO Loops: Part Deux (It&#39;s a pun. Get it?) · Jared Monger
+</title>
+
+    
+      <link rel="canonical" href="https://www.jmonger.com/posts/2009/12/do-loops-part-deux/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.112.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://www.jmonger.com/">
+      Jared Monger
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/resume/">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.jmonger.com/contact/">Contact</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">DO Loops: Part Deux (It&#39;s a pun. Get it?)</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2009-12-11T18:34:04Z'>
+                December 11, 2009
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://www.jmonger.com/tags/sas/">SAS</a>
+      <span class="separator">•</span>
+    <a href="https://www.jmonger.com/tags/tech/">Tech</a>
+      <span class="separator">•</span>
+    <a href="https://www.jmonger.com/tags/featured/">Featured</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        <p>For Part II in this series of posts on DO Loops in SAS, I wanted to discuss an application slightly more complex than the previous example. Loops can not only be used to perform data correction (as shown in the previous post), but can also be very useful in creating new records where none exist. We’ll discuss using order data again as our example. Your client would like you to create a daily trend report showing <strong>YTD Quantity Sold by Product by Date</strong>. In our made-up table, let’s say for simplicity there are four fields: Order Number, Order Date, Product and Quantity. This fictitious company sells two products (Widgets and Super-Widgets) and follows a calendar fiscal year. The data might look something like this.</p>
+<table>
+<thead>
+<tr>
+<th>OrderNumber</th>
+<th>OrderDate</th>
+<th>Product</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2135468</td>
+<td>1/2/09</td>
+<td>Widget</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2135469</td>
+<td>1/3/09</td>
+<td>Widget</td>
+<td>17</td>
+</tr>
+<tr>
+<td>2135470</td>
+<td>1/4/09</td>
+<td>Super-Widget</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>You probably noticed, in its current state, the table above cannot generate this report. We don’t have an appropriate date field and quantities aren’t cumulative. The good news is that, utilizing a loop, with a few lines of code we can create a table that will serve our purpose. In order to generate the requested report, we need to create a table that looks like this. <em>Notice that quantities are cumulative and we have a one record for each product every day.</em></p>
+<table>
+<thead>
+<tr>
+<th>RunDate</th>
+<th>Product</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1/1/09</td>
+<td>Widget</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1/1/09</td>
+<td>Super-Widget</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1/2/09</td>
+<td>Widget</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1/2/09</td>
+<td>Super-Widget</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1/3/09</td>
+<td>Widget</td>
+<td>27</td>
+</tr>
+<tr>
+<td>1/3/09</td>
+<td>Super-Widget</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1/4/09</td>
+<td>Widget</td>
+<td>27</td>
+</tr>
+<tr>
+<td>1/4/09</td>
+<td>Super-Widget</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>So how do we get from Point A to Point B? Good question. There are two steps. Let’s dive in.</p>
+<h4 id="step-1-its-loop-time">STEP #1: It&rsquo;s loop time.</h4>
+<p>Using a combination of a DO UNTIL loop and the OUTPUT statement, we can generate a new order record for every date that each order existed within the fiscal year. &ldquo;What?&rdquo; You might say. Take the first order (2135468). That order was placed on 1/2/09, which means it should be included in the cumulative quantity from 1/2/09 – 12/31/09. Therefore, we need to create 363 new records for that order which contain the dates 1/3 – 12/31, so when we summarize that quantity is included in the total. This can be accomplished by using the following code.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>*Fiscal Year start date;
+</span></span><span style="display:flex;"><span>%LET BEGDTE = ‘01JAN2009’D;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>*Date of current reporting;
+</span></span><span style="display:flex;"><span>%LET RPTDTE = ‘04JAN2009’D;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>DATA TEST_2;
+</span></span><span style="display:flex;"><span>	SET TEST_1;
+</span></span><span style="display:flex;"><span>	RUNDATE = &amp;RPTDTE.;
+</span></span><span style="display:flex;"><span>	DO WHILE (RUNDATE GE &amp;BEGDTE.);
+</span></span><span style="display:flex;"><span>		IF ORDERDATE le RUNDATE;
+</span></span><span style="display:flex;"><span>		OUTPUT;
+</span></span><span style="display:flex;"><span>		RUNDATE = RUNDATE - 1;
+</span></span><span style="display:flex;"><span>	END;
+</span></span><span style="display:flex;"><span>RUN;
+</span></span></code></pre></div><p>This will create a table that contains an individual record for every order on every date that order existed between the reporting date and the order date. If you have a large orders table this step could result in millions of records. Literally.</p>
+<h4 id="step-2-summarize-the-data">STEP #2: Summarize the data.</h4>
+<p>After that we can use a simple PROC SUMMARY to summarize the data and we have successfully moved from Point A to Point B.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>PROC SUMMARY DATA=TEST_2 NWAY MISSING;
+</span></span><span style="display:flex;"><span>    CLASS RUNDATE PRODUCT;
+</span></span><span style="display:flex;"><span>	VAR QUANTITY;
+</span></span><span style="display:flex;"><span>    OUTPUT OUT=TEST_3 (DROP=_TYPE_ _FREQ_) SUM=;
+</span></span><span style="display:flex;"><span>RUN;
+</span></span></code></pre></div><p>We can now generate the requested trend report and the client is happy. What more could you ask.</p>
+
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+      
+        © 2007 - 2023
+      
+       Jared Monger 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

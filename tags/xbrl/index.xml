@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XBRL on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/xbrl/</link>
+    <description>Recent content in XBRL on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Dec 2007 16:52:47 +0000</lastBuildDate><atom:link href="https://www.jmonger.com/tags/xbrl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XBRL = Scrumtrilescent</title>
+      <link>https://www.jmonger.com/posts/2007/12/xbrl-scrumtrilescent/</link>
+      <pubDate>Wed, 19 Dec 2007 16:52:47 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2007/12/xbrl-scrumtrilescent/</guid>
+      <description>Have I mentioned that I love XBRL? For a numbers guy, the shear beauty of the newly released GAAP taxonomy is so wonderful it invites the creation of a new word&amp;hellip;scrumtrilescent. (Thank you, Will Ferrell).
+Seriously, the idea that Company A&amp;rsquo;s financial statements can be downloaded, with all those heady disclosures neatly tagged, and be instantly compared with Company B, makes me want to write a song. What is XBRL you ask?</description>
+    </item>
+    
+  </channel>
+</rss>

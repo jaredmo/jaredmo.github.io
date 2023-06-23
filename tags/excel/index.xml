@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Excel on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/excel/</link>
+    <description>Recent content in Excel on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Feb 2012 21:37:31 +0000</lastBuildDate><atom:link href="https://www.jmonger.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel Pull Function</title>
+      <link>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</link>
+      <pubDate>Sat, 11 Feb 2012 21:37:31 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2012/02/excel-pull-function-creating-dynamic-links-to-closed-workbooks/</guid>
+      <description>I was working on a project this week that required aggregation of data from many, many different Excel workbooks (and various tabs within those workbooks) into one unified dashboard. Now, this can be accomplished with traditional linking, but anyone who has tried to link more than a few workbooks together will tell you this is a pain to maintain and often not very reliable.
+One useful function for creating dynamic links within the same workbook is INDIRECT.</description>
+    </item>
+    
+    <item>
+      <title>JoA: Dashboard Your Scorecard</title>
+      <link>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</link>
+      <pubDate>Fri, 25 Mar 2011 14:59:20 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/joa-dashboard-your-scoreboard/</guid>
+      <description>The Journal of Accountancy had a good article last month on building Excel-based dashboards. It got the creative juices flowing for me, and I am thinking about integrating some dashboards into my daily work. Modern BI tools like SAS and Business Objects can be used to automate feeds to predesigned Excel dashboards which can then be accessed by anyone over a shared network drive. The hardest (and most important) step is determining the appropriate metrics.</description>
+    </item>
+    
+    <item>
+      <title>Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</title>
+      <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
+      <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
+      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.</description>
+    </item>
+    
+    <item>
+      <title>Excel Protect Sheet Hack</title>
+      <link>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</link>
+      <pubDate>Sat, 07 Feb 2009 15:45:17 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2009/02/excel-protect-sheet-hack/</guid>
+      <description>I had a situation yesterday where I was trying to get into a password protected Excel sheet and did not know the password. After a quick Google search I realized that the &amp;ldquo;Protect Sheet&amp;rdquo; function in Excel has a backdoor which can be exploited with a few lines of VBA. I didn&amp;rsquo;t write the code below, but I am not ashamed to use it.
+The algorithm relies on a backdoor password that can be 1 to 9 characters long where each character is either an &amp;ldquo;A&amp;rdquo; or &amp;ldquo;B&amp;rdquo; except the last which can be any character from ASCII code 32 to 255.</description>
+    </item>
+    
+  </channel>
+</rss>

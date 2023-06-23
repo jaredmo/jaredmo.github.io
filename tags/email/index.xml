@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Jared Monger</title>
+    <link>https://www.jmonger.com/tags/email/</link>
+    <description>Recent content in Email on Jared Monger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Mar 2011 16:45:57 +0000</lastBuildDate><atom:link href="https://www.jmonger.com/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Anatomy of an Email Storm</title>
+      <link>https://www.jmonger.com/posts/2011/03/the-anatomy-of-an-email-storm/</link>
+      <pubDate>Thu, 10 Mar 2011 16:45:57 +0000</pubDate>
+      
+      <guid>https://www.jmonger.com/posts/2011/03/the-anatomy-of-an-email-storm/</guid>
+      <description>The Wall Street Journal devoted a full article this week to the Reply-All button. Towards the end, they brought up one of Reply-All&amp;rsquo;s unintended consequences: the email storm. This is where someone accidentally emails a very large distribution list, people then Reply-All asking to be removed, then the whole thing explodes until IT gets involved.
+I&amp;rsquo;ve seen this happen twice. Both times it unfolded exactly like the chart below. I&amp;rsquo;ll admit, by the time it gets to Phase 4, it&amp;rsquo;s hard to resist the urge to jump into the mix.</description>
+    </item>
+    
+  </channel>
+</rss>
