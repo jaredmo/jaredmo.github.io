@@ -9,8 +9,7 @@
     <meta name="description" content="Jared Monger&#39;s personal website">
     <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Installing Arch Linux in VMware Workstation Player"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Installing Arch Linux in VMware Workstation Player"/>
 <meta name="twitter:description" content="During this time when we are all isolated in our homes because of COVID-19, I have tried to make the most of it and learn some new skills. Something I&rsquo;ve wanted to get better at is Linux. I learn best by diving into the deep end of the pool, so I decided to install Arch Linux in VMware Workstation Player as a learning experience. This blog post is to document the process for future reference."/>
 
     <meta property="og:title" content="Installing Arch Linux in VMware Workstation Player" />
@@ -19,6 +18,7 @@
 <meta property="og:url" content="https://www.jmonger.com/posts/2020/09/installing-arch-linux-in-vmware/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-09-03T09:05:00-06:00" />
 <meta property="article:modified_time" content="2020-09-03T09:05:00-06:00" />
+
 
 
     
@@ -55,7 +55,7 @@
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.112.3">
+    <meta name="generator" content="Hugo 0.121.2">
   </head>
 
   
@@ -74,10 +74,6 @@
         
           <li class="navigation-item">
             <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
@@ -130,8 +126,8 @@
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>firmware = &#34;efi&#34;
 </span></span></code></pre></div><p>Next <a href="https://www.archlinux.org/download/">download</a> the latest version of Arch and boot from the ISO. You should end up at a command line.</p>
 <p>Verify there are results when you run the commands below. I did my install on a host machine with a wired connection. If you are performing a bare metal install on a laptop with Wi-Fi only, additional steps are required. Refer to the Arch install guide.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># ls /sys/firmware/efi/efivars
-</span></span><span style="display:flex;"><span># ping google.com
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#007f7f"># ls /sys/firmware/efi/efivars</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># ping google.com</span>
 </span></span></code></pre></div><p>If EFI is working and you have a network connection, let&rsquo;s move forward. Next we&rsquo;ll set the date and time&hellip;</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># timedatectl set-ntp true
 </span></span></code></pre></div><p>Now we&rsquo;ll partition the disk with <em>cfdisk</em>. Run <em>lsblk</em> to determine your particular drive path first. Mine happened to be <em>/dev/sda</em>.</p>
@@ -174,8 +170,8 @@
 </span></span></code></pre></div><p>Now we&rsquo;ll set the root account password.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># passwd
 </span></span></code></pre></div><p>Install the grub bootloader.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
-</span></span><span style="display:flex;"><span># grub-mkconfig -o /boot/grub/grub.cfg
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#007f7f"># grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># grub-mkconfig -o /boot/grub/grub.cfg</span>
 </span></span></code></pre></div><p>&hellip;And enable networking</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># systemctl enable dhcpcd.service
 </span></span></code></pre></div><p>After all that&rsquo;s done, let&rsquo;s unmount the hard disk, reboot, and cross our fingers. Be sure to unmount the installation ISO at the point.</p>
@@ -195,11 +191,11 @@
 </span></span><span style="display:flex;"><span># systemctl enable sddm.service
 </span></span><span style="display:flex;"><span># systemctl enable NetworkManager.service
 </span></span></code></pre></div><p>Now let&rsquo;s install VMware guest tools as well as some drivers that will help us out. After that finishes issue the <em>reboot</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span># pacman -S open-vm-tools
-</span></span><span style="display:flex;"><span># pacman -S xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm
-</span></span><span style="display:flex;"><span># systemctl enable vmtoolsd.service
-</span></span><span style="display:flex;"><span># systemctl enable vmware-vmblock-fuse.service
-</span></span><span style="display:flex;"><span># reboot
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#007f7f"># pacman -S open-vm-tools</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># pacman -S xf86-input-vmmouse xf86-video-vmware mesa gtk2 gtkmm</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># systemctl enable vmtoolsd.service</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># systemctl enable vmware-vmblock-fuse.service</span>
+</span></span><span style="display:flex;"><span><span style="color:#007f7f"># reboot</span>
 </span></span></code></pre></div><p>You should now see a login screen for KDE Plasma. It&rsquo;s starting the feel more like a finished system. Let&rsquo;s login with as the newly created non-root user.</p>
 <p>Open up Konsole or whatever terminal you like, now let&rsquo;s install yay. If you don&rsquo;t intend to use the <a href="https://aur.archlinux.org/">AUR</a>, you can stop here.</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ cd /opt
@@ -232,7 +228,7 @@
     
     
       
-        © 2007 - 2023
+        © 2007 - 2024
       
        Jared Monger 
     

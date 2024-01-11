@@ -9,8 +9,7 @@
     <meta name="description" content="Jared Monger&#39;s personal website">
     <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="April Fools Is Better With Visual Basic"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="April Fools Is Better With Visual Basic"/>
 <meta name="twitter:description" content="Happy April Fools-Eve, my fellow practical joke connoisseurs. As someone who enjoys a good laugh at another&rsquo;s expense and also happens to be a bit of a geek, I thought would post the VBA code for two of my favorite Excel-based jokes. For those who aren&rsquo;t familiar with Visual Basic for Applications (&ldquo;VBA&rdquo;), it&rsquo;s a programming language that Microsoft created which allows users to customize the functionality of MS Office. For example, I have two macros setup which create hotkeys for Paste Values and Paste Formulas, since I use those on a daily basis."/>
 
     <meta property="og:title" content="April Fools Is Better With Visual Basic" />
@@ -19,6 +18,7 @@
 <meta property="og:url" content="https://www.jmonger.com/posts/2011/03/april-fools-is-better-with-visual-basic/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2011-03-31T19:49:08+00:00" />
 <meta property="article:modified_time" content="2011-03-31T19:49:08+00:00" />
+
 
 
     
@@ -55,7 +55,7 @@
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.112.3">
+    <meta name="generator" content="Hugo 0.121.2">
   </head>
 
   
@@ -74,10 +74,6 @@
         
           <li class="navigation-item">
             <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/posts/">Blog</a>
           </li>
         
           <li class="navigation-item">
@@ -142,16 +138,16 @@
 </span></span><span style="display:flex;"><span>End Sub
 </span></span></code></pre></div><h4 id="excel-is-very-polite-today">Excel Is Very Polite Today</h4>
 <p>I really like this one. It is harmless, and instantly recognizable as a joke. Only works at the workbook level, so you&rsquo;ll have to hand pick the file you place it in. Essentially, every time a user changes a cell in the target range (A1:AZ10000), a message box appears saying &ldquo;Thank you. Cell XYZ has been changed.&rdquo; It&rsquo;s awesome. Just follow the same process as above to copy/paste the code into the VBA window of the desired sheet in your workbook.</p>
-<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Private Sub 
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>Private Sub 
 </span></span><span style="display:flex;"><span>Worksheet_Change(ByVal Target As Range) Dim KeyCells As Range 
-</span></span><span style="display:flex;"><span>&#39; The variable KeyCells contains the cells that will 
-</span></span><span style="display:flex;"><span>&#39; cause an alert when they are changed. 
-</span></span><span style="display:flex;"><span>Set KeyCells = Range(&#34;A1:AZ10000&#34;) 
+</span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">&#39; The variable KeyCells contains the cells that will </span>
+</span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">&#39; cause an alert when they are changed. </span>
+</span></span><span style="display:flex;"><span>Set KeyCells = Range(<span style="color:#0ff;font-weight:bold">&#34;A1:AZ10000&#34;</span>) 
 </span></span><span style="display:flex;"><span>If Not Application.Intersect(KeyCells, Range(Target.Address)) _ Is Nothing Then 
-</span></span><span style="display:flex;"><span>&#39; Display a message when one of the designated cells has been 
-</span></span><span style="display:flex;"><span>&#39; changed. 
-</span></span><span style="display:flex;"><span>&#39; Place your code here. 
-</span></span><span style="display:flex;"><span>MsgBox &#34;Thank you. Cell &#34; &amp; Target.Address &amp; &#34; has been changed.&#34; 
+</span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">&#39; Display a message when one of the designated cells has been </span>
+</span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">&#39; changed. </span>
+</span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">&#39; Place your code here. </span>
+</span></span><span style="display:flex;"><span>MsgBox <span style="color:#0ff;font-weight:bold">&#34;Thank you. Cell &#34;</span> &amp; Target.Address &amp; <span style="color:#0ff;font-weight:bold">&#34; has been changed.&#34;</span> 
 </span></span><span style="display:flex;"><span>End If 
 </span></span><span style="display:flex;"><span>End Sub
 </span></span></code></pre></div><p>Hope everyone has a safe and happy April 1. April Fools is always better when you&rsquo;re a geek.</p>
@@ -178,7 +174,7 @@
     
     
       
-        © 2007 - 2023
+        © 2007 - 2024
       
        Jared Monger 
     
