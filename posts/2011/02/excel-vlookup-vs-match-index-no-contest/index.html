@@ -9,18 +9,22 @@
     <meta name="description" content="Jared Monger&#39;s personal website">
     <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest."/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest.">
 <meta name="twitter:description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action."/>
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action.">
 
-    <meta property="og:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest." />
-<meta property="og:description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2011-02-11T17:12:37+00:00" />
-<meta property="article:modified_time" content="2011-02-11T17:12:37+00:00" />
-
+    <meta property="og:url" content="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
+  <meta property="og:site_name" content="Jared Monger">
+  <meta property="og:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest.">
+  <meta property="og:description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2011-02-11T17:12:37+00:00">
+    <meta property="article:modified_time" content="2011-02-11T17:12:37+00:00">
+    <meta property="article:tag" content="Excel">
+    <meta property="article:tag" content="Tech">
 
 
     
@@ -57,7 +61,7 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.125.0">
   </head>
 
   
@@ -127,12 +131,12 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
       <div>
         <p>Last week, I posted a <a href="http://twitter.com/#!/jmonger/status/35012005412741120">tweet</a> declaring that VLOOKUP (the popular joining function in Excel) was for <a href="http://www.urbandictionary.com/define.php?term=newb">newbs</a> and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.</p>
 <h4 id="vlookup-in-action">VLOOKUP in Action</h4>
-<p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled.jpg" alt=""><br>
+<p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled.jpg"><br>
 Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action. As you can see, we are trying to join the customer name to a table that contains individual orders using the customer number. The function basically says, &ldquo;Hey Excel, go to this array. Find the first row that has my value in the first column of that array. Return the value from &ldquo;x&rdquo; columns over in that same row.&rdquo; Pretty simple.</p>
 <h4 id="the-problem">The Problem</h4>
 <p>What if the key column you are using is in the middle of the array and you need to pull a value to its left? Well&hellip;you&rsquo;ve got a problem. VLOOKUP will only index from left to right. If you could simply enter negative numbers in the column index value there would be no issue&hellip;but you can&rsquo;t.</p>
 <h4 id="the-solution-match-and-index">The Solution: MATCH and INDEX</h4>
-<p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled1.jpg" alt=""><br>
+<p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled1.jpg"><br>
 MATCH and INDEX are two separate functions in Excel, but used in concert they can be very powerful. Here&rsquo;s how it works. INDEX requires two inputs: array and row number. (It can also accept a column number, but that&rsquo;s a post for another day.) In this example, the array represents the values you would like to populate in your new table. The MATCH function is inserted into the row number section of the INDEX function to supply the appropriate row. As you can see in the example, it doesn&rsquo;t matter if the array is left or right of the needed data, since all INDEX needs is a row number. This is a powerful advantage that, in my estimation, makes it the superior choice.</p>
 
       </div>
@@ -172,6 +176,9 @@ MATCH and INDEX are two separate functions in Excel, but used in concert they ca
     </main>
 
     
+  
+
+
 
   </body>
 
