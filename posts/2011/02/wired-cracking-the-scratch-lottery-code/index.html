@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>
+  Wired: Cracking the Scratch Lottery Code · Jared Monger
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="Jared Monger">
-    <meta name="description" content="Jared Monger&#39;s personal website">
-    <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Wired: Cracking the Scratch Lottery Code">
+
+
+<meta name="author" content="Jared Monger">
+<meta name="description" content="This was an interesting story from Wired about a Canadian statistician who cracked the Ontario lottery scratch-off algorithm.
+The apparent randomness of the scratch ticket was just a facade, a mathematical lie. And this meant that the lottery system might actually be solvable, just like those mining samples. “At the time, I had no intention of cracking the tickets,” he says. He was just curious about the algorithm that produced the numbers.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Wired: Cracking the Scratch Lottery Code">
 <meta name="twitter:description" content="This was an interesting story from Wired about a Canadian statistician who cracked the Ontario lottery scratch-off algorithm.
 The apparent randomness of the scratch ticket was just a facade, a mathematical lie. And this meant that the lottery system might actually be solvable, just like those mining samples. “At the time, I had no intention of cracking the tickets,” he says. He was just curious about the algorithm that produced the numbers.">
 
-    <meta property="og:url" content="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
+<meta property="og:url" content="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
   <meta property="og:site_name" content="Jared Monger">
   <meta property="og:title" content="Wired: Cracking the Scratch Lottery Code">
   <meta property="og:description" content="This was an interesting story from Wired about a Canadian statistician who cracked the Ontario lottery scratch-off algorithm.
@@ -27,109 +35,143 @@ The apparent randomness of the scratch ticket was just a facade, a mathematical 
     <meta property="article:tag" content="News">
 
 
-    
-      <base href="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
-    
-    <title>
-  Wired: Cracking the Scratch Lottery Code · Jared Monger
-</title>
 
-    
-      <link rel="canonical" href="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+<link rel="canonical" href="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
 
-    
-      
-      
-      <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
-    
 
-    
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-
-    
-
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
-
-    <meta name="generator" content="Hugo 0.125.5">
-  </head>
 
   
   
-  <body class="colorscheme-light">
-    <main class="wrapper">
-      <nav class="navigation">
+  <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://www.jmonger.com/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://www.jmonger.com/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.jmonger.com/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://www.jmonger.com/site.webmanifest">
+<link rel="mask-icon" href="https://www.jmonger.com/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="https://www.jmonger.com/">
       Jared Monger
     </a>
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
-          </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/contact/">Contact</a>
+            </li>
+          
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/resume/">Resume</a>
-          </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/contact/">Contact</a>
-          </li>
-        
-      
-      
-    </ul>
+      </ul>
+    
   </section>
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container post">
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Wired: Cracking the Scratch Lottery Code</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://www.jmonger.com/posts/2011/02/wired-cracking-the-scratch-lottery-code/">
+              Wired: Cracking the Scratch Lottery Code
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2011-02-07T14:30:43Z'>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2011-02-07T14:30:43Z">
                 February 7, 2011
               </time>
             </span>
             <span class="reading-time">
-              <i class="fas fa-clock"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               3-minute read
             </span>
           </div>
           
+          
           <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="https://www.jmonger.com/tags/fun/">Fun</a>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://www.jmonger.com/tags/fun/">Fun</a>
+    </span>
       <span class="separator">•</span>
-    <a href="https://www.jmonger.com/tags/news/">News</a></div>
+    <span class="tag">
+      <a href="https://www.jmonger.com/tags/news/">News</a>
+    </span></div>
 
         </div>
       </header>
 
-      <div>
-        <p><a href="http://www.wired.com/magazine/2011/01/ff_lottery/all/1">This</a> was an interesting story from Wired about a Canadian statistician who cracked the Ontario lottery scratch-off algorithm.</p>
+      <div class="post-content">
+        
+        <p><a href="http://www.wired.com/magazine/2011/01/ff_lottery/all/1"  class="external-link" target="_blank" rel="noopener">This</a> was an interesting story from Wired about a Canadian statistician who cracked the Ontario lottery scratch-off algorithm.</p>
 <blockquote>
 <p>The apparent randomness of the scratch ticket was just a facade, a mathematical lie. And this meant that the lottery system might actually be solvable, just like those mining samples. “At the time, I had no intention of cracking the tickets,” he says. He was just curious about the algorithm that produced the numbers. Walking back from the gas station with the chips and coffee he’d bought with his winnings, he turned the problem over in his mind. By the time he reached the office, he was confident that he knew how the software might work, how it could precisely control the number of winners while still appearing random. “It wasn’t that hard,” Srivastava says. “I do the same kind of math all day long.” &hellip;</p>
 </blockquote>
@@ -137,17 +179,36 @@ The apparent randomness of the scratch ticket was just a facade, a mathematical 
 <p>The trick itself is ridiculously simple. (Srivastava would later teach it to his 8-year-old daughter.) Each ticket contained eight tic-tac-toe boards, and each space on those boards—72 in all—contained an exposed number from 1 to 39. As a result, some of these numbers were repeated multiple times. Perhaps the number 17 was repeated three times, and the number 38 was repeated twice. And a few numbers appeared only once on the entire card. Srivastava’s startling insight was that he could separate the winning tickets from the losing tickets by looking at the number of times each of the digits occurred on the tic-tac-toe boards. In other words, he didn’t look at the ticket as a sequence of 72 random digits. Instead, he categorized each number according to its frequency, counting how many times a given number showed up on a given ticket. “The numbers themselves couldn’t have been more meaningless,” he says. “But whether or not they were repeated told me nearly everything I needed to know.” Srivastava was looking for singletons, numbers that appear only a single time on the visible tic-tac-toe boards. He realized that the singletons were almost always repeated under the latex coating. If three singletons appeared in a row on one of the eight boards, that ticket was probably a winner.</p>
 </blockquote>
 <hr>
-<h3 id="comments">Comments:</h3>
-<h4 id="heading"></h4>
-<p><a href="http://blogs.sas.com/sasdummy" title="chris.hemedinger@sas.com">Chris Hemedinger</a> - <!-- raw HTML omitted -->Feb 0, 2011<!-- raw HTML omitted --></p>
-<p>Jared, if you haven&rsquo;t seen it, you might be interested in this series of posted by Rick Wicklin, SAS/IML expert and blogger: <a href="http://blogs.sas.com/iml/index.php?/archives/93-Scratch-Off-Lottery-Games-One-Way-to-Design-Them.html">http://blogs.sas.com/iml/index.php?/archives/93-Scratch-Off-Lottery-Games-One-Way-to-Design-Them.html</a></p>
+<h3 id="comments">
+  Comments:
+  <a class="heading-link" href="#comments">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="heading">
+  
+  <a class="heading-link" href="#heading">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><a href="http://blogs.sas.com/sasdummy" title="chris.hemedinger@sas.com"  class="external-link" target="_blank" rel="noopener">Chris Hemedinger</a> - <!-- raw HTML omitted -->Feb 0, 2011<!-- raw HTML omitted --></p>
+<p>Jared, if you haven&rsquo;t seen it, you might be interested in this series of posted by Rick Wicklin, SAS/IML expert and blogger: <a href="http://blogs.sas.com/iml/index.php?/archives/93-Scratch-Off-Lottery-Games-One-Way-to-Design-Them.html"  class="external-link" target="_blank" rel="noopener">http://blogs.sas.com/iml/index.php?/archives/93-Scratch-Off-Lottery-Games-One-Way-to-Design-Them.html</a></p>
 <!-- raw HTML omitted -->
-<h4 id="heading-1"></h4>
-<p><a href="%22jared@monger.cc%22">Jared</a> - <!-- raw HTML omitted -->Feb 0, 2011<!-- raw HTML omitted --></p>
+<h4 id="heading-1">
+  
+  <a class="heading-link" href="#heading-1">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p><a href="%22jared@monger.cc%22" >Jared</a> - <!-- raw HTML omitted -->Feb 0, 2011<!-- raw HTML omitted --></p>
 <p>Very cool! No, I hadn&rsquo;t seen those posts yet. Just goes to show how complicated the problem is. This was my favorite quote from the article. “I remember telling myself that the Ontario Lottery is a multibillion-dollar-a- year business,” he says. “They must know what they’re doing, right?” Nope.</p>
 <!-- raw HTML omitted -->
 
       </div>
+
 
       <footer>
         
@@ -156,38 +217,82 @@ The apparent randomness of the scratch ticket was just a facade, a mathematical 
         
         
         
+        
+        
+
+        
+        
       </footer>
     </article>
 
     
   </section>
 
-      </div>
+    </div>
 
-      <footer class="footer">
+    <footer class="footer">
   <section class="container">
+    ©
     
+      2007 -
     
-      
-        © 2007 - 2024
-      
-       Jared Monger 
+    2024
+     Jared Monger 
+    ·
     
-    
-       · 
-      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
     
   </section>
 </footer>
 
-    </main>
+  </main>
 
-    
+  
+
+  
+  
+  <script src="https://www.jmonger.com/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
   
 
 
 
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>

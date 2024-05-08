@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>
+  Excel: VLOOKUP vs. MATCH / INDEX. No Contest. · Jared Monger
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="Jared Monger">
-    <meta name="description" content="Jared Monger&#39;s personal website">
-    <meta name="keywords" content="blog,developer,personal">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest.">
+
+
+<meta name="author" content="Jared Monger">
+<meta name="description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
+VLOOKUP in Action Link to heading Essentially, both sets of functions are simple ways to join two tables that share a common field.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest.">
 <meta name="twitter:description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action.">
+VLOOKUP in Action Link to heading Essentially, both sets of functions are simple ways to join two tables that share a common field.">
 
-    <meta property="og:url" content="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
+<meta property="og:url" content="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
   <meta property="og:site_name" content="Jared Monger">
   <meta property="og:title" content="Excel: VLOOKUP vs. MATCH / INDEX. No Contest.">
   <meta property="og:description" content="Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.
-VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here’s an example of VLOOKUP in action.">
+VLOOKUP in Action Link to heading Essentially, both sets of functions are simple ways to join two tables that share a common field.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -27,119 +35,172 @@ VLOOKUP in Action Essentially, both sets of functions are simple ways to join tw
     <meta property="article:tag" content="Tech">
 
 
-    
-      <base href="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
-    
-    <title>
-  Excel: VLOOKUP vs. MATCH / INDEX. No Contest. · Jared Monger
-</title>
 
-    
-      <link rel="canonical" href="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+<link rel="canonical" href="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
 
-    
-      
-      
-      <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
-    
 
-    
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.jmonger.com/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-
-    
-
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
-
-    <meta name="generator" content="Hugo 0.125.5">
-  </head>
 
   
   
-  <body class="colorscheme-light">
-    <main class="wrapper">
-      <nav class="navigation">
+  <link rel="stylesheet" href="https://www.jmonger.com/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://www.jmonger.com/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.jmonger.com/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://www.jmonger.com/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.jmonger.com/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://www.jmonger.com/site.webmanifest">
+<link rel="mask-icon" href="https://www.jmonger.com/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="https://www.jmonger.com/">
       Jared Monger
     </a>
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/about/">About</a>
-          </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://www.jmonger.com/contact/">Contact</a>
+            </li>
+          
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/resume/">Resume</a>
-          </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://www.jmonger.com/contact/">Contact</a>
-          </li>
-        
-      
-      
-    </ul>
+      </ul>
+    
   </section>
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container post">
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Excel: VLOOKUP vs. MATCH / INDEX. No Contest.</h1>
+          <h1 class="title">
+            <a class="title-link" href="https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/">
+              Excel: VLOOKUP vs. MATCH / INDEX. No Contest.
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2011-02-11T17:12:37Z'>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2011-02-11T17:12:37Z">
                 February 11, 2011
               </time>
             </span>
             <span class="reading-time">
-              <i class="fas fa-clock"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               2-minute read
             </span>
           </div>
           
+          
           <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="https://www.jmonger.com/tags/excel/">Excel</a>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="https://www.jmonger.com/tags/excel/">Excel</a>
+    </span>
       <span class="separator">•</span>
-    <a href="https://www.jmonger.com/tags/tech/">Tech</a></div>
+    <span class="tag">
+      <a href="https://www.jmonger.com/tags/tech/">Tech</a>
+    </span></div>
 
         </div>
       </header>
 
-      <div>
-        <p>Last week, I posted a <a href="http://twitter.com/#!/jmonger/status/35012005412741120">tweet</a> declaring that VLOOKUP (the popular joining function in Excel) was for <a href="http://www.urbandictionary.com/define.php?term=newb">newbs</a> and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.</p>
-<h4 id="vlookup-in-action">VLOOKUP in Action</h4>
+      <div class="post-content">
+        
+        <p>Last week, I posted a <a href="http://twitter.com/#!/jmonger/status/35012005412741120"  class="external-link" target="_blank" rel="noopener">tweet</a> declaring that VLOOKUP (the popular joining function in Excel) was for <a href="http://www.urbandictionary.com/define.php?term=newb"  class="external-link" target="_blank" rel="noopener">newbs</a> and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.</p>
+<h4 id="vlookup-in-action">
+  VLOOKUP in Action
+  <a class="heading-link" href="#vlookup-in-action">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled.jpg"><br>
 Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&rsquo;s an example of VLOOKUP in action. As you can see, we are trying to join the customer name to a table that contains individual orders using the customer number. The function basically says, &ldquo;Hey Excel, go to this array. Find the first row that has my value in the first column of that array. Return the value from &ldquo;x&rdquo; columns over in that same row.&rdquo; Pretty simple.</p>
-<h4 id="the-problem">The Problem</h4>
+<h4 id="the-problem">
+  The Problem
+  <a class="heading-link" href="#the-problem">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p>What if the key column you are using is in the middle of the array and you need to pull a value to its left? Well&hellip;you&rsquo;ve got a problem. VLOOKUP will only index from left to right. If you could simply enter negative numbers in the column index value there would be no issue&hellip;but you can&rsquo;t.</p>
-<h4 id="the-solution-match-and-index">The Solution: MATCH and INDEX</h4>
+<h4 id="the-solution-match-and-index">
+  The Solution: MATCH and INDEX
+  <a class="heading-link" href="#the-solution-match-and-index">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
 <p><img src="http://numbermonger.files.wordpress.com/2011/02/untitled1.jpg"><br>
 MATCH and INDEX are two separate functions in Excel, but used in concert they can be very powerful. Here&rsquo;s how it works. INDEX requires two inputs: array and row number. (It can also accept a column number, but that&rsquo;s a post for another day.) In this example, the array represents the values you would like to populate in your new table. The MATCH function is inserted into the row number section of the INDEX function to supply the appropriate row. As you can see in the example, it doesn&rsquo;t matter if the array is left or right of the needed data, since all INDEX needs is a row number. This is a powerful advantage that, in my estimation, makes it the superior choice.</p>
 
       </div>
+
 
       <footer>
         
@@ -148,38 +209,82 @@ MATCH and INDEX are two separate functions in Excel, but used in concert they ca
         
         
         
+        
+        
+
+        
+        
       </footer>
     </article>
 
     
   </section>
 
-      </div>
+    </div>
 
-      <footer class="footer">
+    <footer class="footer">
   <section class="container">
+    ©
     
+      2007 -
     
-      
-        © 2007 - 2024
-      
-       Jared Monger 
+    2024
+     Jared Monger 
+    ·
     
-    
-       · 
-      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
     
   </section>
 </footer>
 
-    </main>
+  </main>
 
-    
+  
+
+  
+  
+  <script src="https://www.jmonger.com/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
   
 
 
 
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>

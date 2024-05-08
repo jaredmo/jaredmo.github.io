@@ -27,7 +27,7 @@
       <link>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</link>
       <pubDate>Fri, 11 Feb 2011 17:12:37 +0000</pubDate>
       <guid>https://www.jmonger.com/posts/2011/02/excel-vlookup-vs-match-index-no-contest/</guid>
-      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.&#xA;VLOOKUP in Action Essentially, both sets of functions are simple ways to join two tables that share a common field. Here&amp;rsquo;s an example of VLOOKUP in action.</description>
+      <description>Last week, I posted a tweet declaring that VLOOKUP (the popular joining function in Excel) was for newbs and that cool kids used MATCH and INDEX. I got some interesting responses, so I thought I would take a moment to defend my position and maybe gain some converts.&#xA;VLOOKUP in Action Link to heading Essentially, both sets of functions are simple ways to join two tables that share a common field.</description>
     </item>
     <item>
       <title>Excel Protect Sheet Hack</title>
